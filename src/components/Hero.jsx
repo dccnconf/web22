@@ -25,7 +25,6 @@ export default function Hero({ plenary }) {
           {/*<span className="ml-2 text-indigo-600">@online</span>*/}
         </p>
         <br className="hidden lg:block lg:mt-12"/>
-
         <div className="mt-3 mx-0 md:mx-16 lg:mx-0 lg:w-1/2 xl:w-4/7">
           <div className="rounded-md shadow">
             {/*<a href="https://uconfy.com/conf/4/"*/}
