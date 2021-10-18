@@ -153,7 +153,7 @@ export default function Navbar({ active = 'conference' }) {
 const Brand = () => (
   <Link href="/">
     <a className="font-bold">
-      DCCN'2021
+      DCCN'2022
     </a>
   </Link>
 );
