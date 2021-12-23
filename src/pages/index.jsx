@@ -7,13 +7,13 @@ import getAllTracks from "../libs/tracks";
 import About from "../components/About";
 import getTopics from "../libs/topics";
 import Timeline from "../components/Timeline";
-import EmptyPagePlaceholder from "../components/EmptyPagePlaceholder";
+import {getDeadlines} from "../libs/deadlines";
 
-export default function Home ({committeeMembers, tracks, topics}) {
+export default function Home({committeeMembers, tracks, topics, deadlines}) {
   return (
     <Layout pageTitle={"DCCN'2022"} active="conference">
       <div className="lg:pb-12">
-        <Hero />
+        <Hero/>
       </div>
 
       <section id="about" className="pt-12 bg-gray-100">
@@ -21,7 +21,7 @@ export default function Home ({committeeMembers, tracks, topics}) {
 
           <h2 className="h2">About</h2>
           <div className="py-12 text-gray-600">
-            <About topics={topics} />
+            <About topics={topics}/>
           </div>
 
         </div>
@@ -40,11 +40,8 @@ export default function Home ({committeeMembers, tracks, topics}) {
 
       <section id="timeline" className="pt-12">
         <h2 className="h2">Timeline</h2>
-        <div className="flex flex-col items-center justify-center my-12 lg:flex-row lg:my-0">
-          <div className="mx-auto lg:mx-10 lg:w-1/3 w-2/3 mt-8 mb-8">
-            <img src={`/images/undraw_season_change_f99v.svg`} alt="Image about season change" />
-          </div>
-          <p className="md:text-xl">Timeline will be prepared later.</p>
+        <div className="container mx-4 md:mx-auto py-12 xl:w-1/2 lg:w-2/3">
+          <Timeline deadlines={deadlines}/>
         </div>
       </section>
 
@@ -62,7 +59,7 @@ export default function Home ({committeeMembers, tracks, topics}) {
       {/*  </div>*/}
       {/*</section>*/}
 
-      <section id="committee" className="pt-12 bg-gray-100">
+      <section id="committee" className="pt-120">
         <div className="container mx-auto px-4 pb-12 lg:w-3/4">
 
           <div className="mb-8">
@@ -98,6 +95,30 @@ export default function Home ({committeeMembers, tracks, topics}) {
         </div>
       </section>
 
+      <section id="previous-events" className="pt-12 bg-gray-100">
+        <div className="container mx-auto px-4 pb-12 xl:w-1/2">
+          <h2 className="h2">Previous Events</h2>
+          <div className="flex flex-col-reverse justify-center align-center xl:flex-row">
+            <div className="py-12 text-gray-600 xl:w-1/2 ">
+              <ul className="text-center list-disc ml-8 mt-8 m-auto text-xl xl:text-justify">
+                <li className="mb-4">
+                  <a target="_blank" href="https://2021.dccn.ru" className="text-blue-500 hover:underline">24th International Conference on Distributed Computer and Communication Networks DCCN 2021</a>
+                </li>
+                <li className="mb-4">
+                  <a target="_blank" href="https://2020.dccn.ru" className="text-blue-500 hover:underline">23rd International Conference on Distributed Computer and Communication Networks DCCN 2020</a>
+                </li>
+                <li>
+                  <a target="_blank" href="http://2019.dccn.ru" className="text-blue-500 hover:underline">22nd International Conference on Distributed Computer and Communication Networks DCCN 2019</a>
+                </li>
+              </ul>
+            </div>
+            <div className="self-center w-1/4	xl:w-1/4 ml-4 shrink-0">
+              <img src="/images/dccn-logo.png" alt="DCCN logotype"/>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </Layout>
   );
 }
@@ -106,9 +127,11 @@ export const getStaticProps = async () => {
   const committeeMembers = getAllCommitteeMembers();
   const tracks = getAllTracks();
   const topics = getTopics();
+  const deadlines = getDeadlines();
 
   return {
     props: {
+      deadlines,
       committeeMembers,
       tracks,
       topics

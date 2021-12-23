@@ -3,19 +3,30 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCheck} from "@fortawesome/free-solid-svg-icons/faCheck";
 import Moment from 'react-moment';
 import moment from "moment";
-import EmptyPagePlaceholder from "./EmptyPagePlaceholder";
 
-const Timeline = () => {
-  return (
+const Timeline = ({ deadlines }) => {
+  return deadlines && (
     <>
-      <section className="container mx-auto md:w-3/4 px-4 md:px-0" id="top">
-        <EmptyPagePlaceholder
-          imageName="undraw_season_change_f99v.svg"
-          imageAlt="Image about season change"
-        >
-          <p className="md:text-xl">Timeline will be prepared later.</p>
-        </EmptyPagePlaceholder>
-      </section>
+      <div className="relative">
+        <div className="border-r-4 border-gray-400 absolute h-full top-0" style={{left: 22}} />
+        <ul className="list-none m-0 pt-3 pb-1">
+          {deadlines.map((deadline, index) => (
+            <TimelineItem
+              icon={getStatusIcon(deadline.date)}
+              date={deadline.date}
+              iconClassName={getStatusColorClass(deadline.date)}
+              headerClassName={getHeaderColorClass(deadline.date)}
+              key={index}
+            >
+              {deadline.events.map((event, index) => (
+                <div className={event.important ? "text-gray-900 font-extrabold md:text-xl": "text-base"} key={index}>
+                  {event.event}
+                </div>
+              ))}
+            </TimelineItem>
+          ))}
+        </ul>
+      </div>
     </>
   ) || (<></>)
 };
