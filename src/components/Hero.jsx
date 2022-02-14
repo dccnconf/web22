@@ -25,6 +25,19 @@ export default function Hero({ plenary }) {
           {/*<span className="ml-2 text-indigo-600">@online</span>*/}
         </p>
         <br className="hidden lg:block lg:mt-12"/>
+
+        <div className="mt-3 mx-0 md:mx-16 lg:mx-0 lg:w-1/2 xl:w-1/3">
+          <div className="rounded-md shadow">
+            <a href="https://uconfy.com/conf/8/"
+               target="_blank"
+               className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+            >
+              <FontAwesomeIcon icon={faDoorOpen} size="lg" className="mr-2 hidden md:block" />
+              Submit paper
+            </a>
+          </div>
+        </div>
+
         <div className="mt-3 mx-0 md:mx-16 lg:mx-0 lg:w-1/2 xl:w-4/7">
           <div className="rounded-md shadow">
             {/*<a href="https://uconfy.com/conf/4/"*/}
