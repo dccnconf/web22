@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faInfo,
   faCoins,
+  faBook,
   faCalendarDay,
   faWaveSquare,
   faDesktop,
@@ -164,6 +165,11 @@ const ConferenceMenu = ({onClick}) => (
     <NavbarDropdownMenuItem
       href="/" as="/#about" icon={faInfo} text="About" iconClassName="mx-2"
       comment="Learn more about our conference"
+      onClick={onClick}
+    />
+    <NavbarDropdownMenuItem
+      href="/" as="/#proceedings" icon={faBook} text="Proceedings" iconClassName="mx-2"
+      comment="Springer Proceedings"
       onClick={onClick}
     />
     <NavbarDropdownMenuItem

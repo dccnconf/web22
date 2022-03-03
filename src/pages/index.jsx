@@ -8,6 +8,7 @@ import About from "../components/About";
 import getTopics from "../libs/topics";
 import Timeline from "../components/Timeline";
 import {getDeadlines} from "../libs/deadlines";
+import Proceedings from "../components/Proceedings";
 
 export default function Home({committeeMembers, tracks, topics, deadlines}) {
   return (
@@ -22,6 +23,17 @@ export default function Home({committeeMembers, tracks, topics, deadlines}) {
           <h2 className="h2">About</h2>
           <div className="py-12 text-gray-600">
             <About topics={topics}/>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="proceedings" className="pt-12 bg-purple-100">
+        <div className="container mx-auto px-4 pb-12 lg:w-1/2">
+
+          <h2 className="h2">Springer Proceedings</h2>
+          <div className="py-12 text-gray-600">
+            <Proceedings />
           </div>
 
         </div>
