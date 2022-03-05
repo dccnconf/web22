@@ -28,16 +28,16 @@ export default function Home({committeeMembers, tracks, topics, deadlines}) {
         </div>
       </section>
 
-      <section id="proceedings" className="pt-12 bg-purple-100">
-        <div className="container mx-auto px-4 pb-12 lg:w-1/2">
+      {/*<section id="proceedings" className="pt-12 bg-purple-100">*/}
+      {/*  <div className="container mx-auto px-4 pb-12 lg:w-1/2">*/}
 
-          <h2 className="h2">Springer Proceedings</h2>
-          <div className="py-12 text-gray-600">
-            <Proceedings />
-          </div>
+      {/*    <h2 className="h2">Springer Proceedings</h2>*/}
+      {/*    <div className="py-12 text-gray-600">*/}
+      {/*      <Proceedings />*/}
+      {/*    </div>*/}
 
-        </div>
-      </section>
+      {/*  </div>*/}
+      {/*</section>*/}
 
       {/*<section id="keynotes" className="mt-12">*/}
       {/*  <div className="container mx-auto px-4 pb-12 lg:w-3/4">*/}
