@@ -65,11 +65,11 @@ export default function Home({committeeMembers, tracks, topics, deadlines, fees}
           <Fees className="mt-8"
               fees={fees}
           />
-          <p className="text-xl">
-            <Link href={"/support"} as="/support#payment">
-              <a className="text-blue-500 hover:underline">Read more...</a>
-            </Link>
-          </p>
+          {/*<p className="text-xl">*/}
+          {/*  <Link href={"/support"} as="/support#payment">*/}
+          {/*    <a className="text-blue-500 hover:underline">Read more...</a>*/}
+          {/*  </Link>*/}
+          {/*</p>*/}
         </div>
       </section>
 
