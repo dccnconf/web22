@@ -23,7 +23,7 @@ const Footer = () => (
           </div>
         </div>
 
-        <div className="sm:grid sm:grid-cols-3 sm:grid-flow-row gap-12 order-1 md:order-2">
+        <div className="sm:grid sm:grid-cols-4 sm:grid-flow-row gap-12 order-1 md:order-2">
           <div className="">
             <Link href="/">
               <a className="font-medium uppercase tracking-wide text-gray-500 hover:underline">Conference</a>
@@ -31,6 +31,11 @@ const Footer = () => (
             <ul className="text-gray-600 leading-tight">
               {getConferenceLinks().map((link, index) => <li key={index} className="my-3">{link}</li>)}
             </ul>
+          </div>
+          <div className="mt-8 sm:mt-0">
+            <Link href={"/authors"}>
+              <a className="font-medium uppercase tracking-wider text-gray-500 hover:underline">Authors</a>
+            </Link>
           </div>
           <div className="mt-8 sm:mt-0">
             <Link href={"/program"}>
@@ -64,7 +69,7 @@ const getConferenceLinks = () => [
   <FooterLink href={"/"} hash="about" label="About" />,
   <FooterLink href={"/"} hash="proceedings" label="Proceedings" />,
   <FooterLink href={"/"} hash="timeline" label="Timeline" />,
-  <FooterLink href={"/authors"} label="CFP" />,
+  <FooterLink href={"/"} hash="fees" label="Registration" />,
   <FooterLink href={"/"} hash="committee" label="Organizers" />,
 ];
 

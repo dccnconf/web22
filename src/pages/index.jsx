@@ -8,9 +8,11 @@ import About from "../components/About";
 import getTopics from "../libs/topics";
 import Timeline from "../components/Timeline";
 import {getDeadlines} from "../libs/deadlines";
-import Proceedings from "../components/Proceedings";
+import {getAllFees} from "../libs/fees";
+import Fees from "../components/Fees";
+import Link from "next/link";
 
-export default function Home({committeeMembers, tracks, topics, deadlines}) {
+export default function Home({committeeMembers, tracks, topics, deadlines, fees}) {
   return (
     <Layout pageTitle={"DCCN'2022"} active="conference">
       <div className="lg:pb-12">
@@ -57,19 +59,19 @@ export default function Home({committeeMembers, tracks, topics, deadlines}) {
         </div>
       </section>
 
-      {/*<section id="fees" className="pt-12 bg-purple-100">*/}
-      {/*  <div className="container mx-auto px-4 pb-12 lg:w-1/2">*/}
-      {/*    <h2 className="h2">Registration & Fees</h2>*/}
-      {/*    <Fees className="mt-8"*/}
-      {/*        fees={fees}*/}
-      {/*    />*/}
-      {/*    <p className="text-xl">*/}
-      {/*      <Link href={"/support"} as="/support#payment">*/}
-      {/*        <a className="text-blue-500 hover:underline">Read more...</a>*/}
-      {/*      </Link>*/}
-      {/*    </p>*/}
-      {/*  </div>*/}
-      {/*</section>*/}
+      <section id="fees" className="pt-12 bg-purple-100">
+        <div className="container mx-auto px-4 pb-12 lg:w-1/2">
+          <h2 className="h2">Registration & Fees</h2>
+          <Fees className="mt-8"
+              fees={fees}
+          />
+          <p className="text-xl">
+            <Link href={"/support"} as="/support#payment">
+              <a className="text-blue-500 hover:underline">Read more...</a>
+            </Link>
+          </p>
+        </div>
+      </section>
 
       <section id="committee" className="pt-120">
         <div className="container mx-auto px-4 pb-12 lg:w-3/4">
@@ -140,13 +142,15 @@ export const getStaticProps = async () => {
   const tracks = getAllTracks();
   const topics = getTopics();
   const deadlines = getDeadlines();
+  const fees = getAllFees();
 
   return {
     props: {
       deadlines,
       committeeMembers,
       tracks,
-      topics
+      topics,
+      fees
     }
   }
 };
