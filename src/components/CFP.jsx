@@ -25,6 +25,26 @@ const CFP = ({topics, className = ""} = {}) => {
     </div>
 
     <p className="md:text-lg mt-8">
+      For your convenience, we made available the DCCN templates in the scientific authoring platform Overleaf:
+    </p>
+    <div className="mt-4 pl-8">
+      <a href="https://www.overleaf.com/latex/templates/dccn2022-latex-ru/wwfcfgyycsxj"
+         target="_blank"
+         className="text-indigo-700">
+        <FontAwesomeIcon icon={faLink} size="lg" className="mr-3"/>
+        <span className="text-lg align-middle">Overleaf DCCN'2022 Submission Template (RUS)</span>
+      </a>
+    </div>
+    <div className="mt-4 pl-8">
+      <a href="https://www.overleaf.com/latex/templates/dccn2022-submission-template-eng/stvdgxcjsggd"
+         target="_blank"
+         className="text-indigo-700">
+        <FontAwesomeIcon icon={faLink} size="lg" className="mr-3"/>
+        <span className="text-lg align-middle">Overleaf DCCN'2022 Submission Template (ENG)</span>
+      </a>
+    </div>
+
+    <p className="md:text-lg mt-8">
       After a peer review and plagiarism check, authors of selected submissions in English, recommended by the Program Committee,
       will be invited to submit their extended papers (12-15 pages in Springer LNCS template).
       After a second round of review the accepted extended papers will be published by Springer (approval pending)
