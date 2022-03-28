@@ -130,7 +130,7 @@ export default function Navbar({ active = 'conference' }) {
                   <div className="py-6 px-5 space-y-6">
                     <div className="grid grid-cols-1 sm:grid-cols-2 row-gap-4 col-gap-8">
                       <NavbarLink text="Conference" href="/" onClick={closeAll} />
-                      <NavbarLink text="CFP" href="/authors" onClick={closeAll} />
+                      <NavbarLink text="Authors" href="/authors" onClick={closeAll} />
                       <NavbarLink text="Program" href="/program" onClick={closeAll} />
                       <NavbarLink text="Contact Us" href="/support" onClick={closeAll} />
                     </div>
@@ -168,7 +168,7 @@ const ConferenceMenu = ({onClick}) => (
       onClick={onClick}
     />
     <NavbarDropdownMenuItem
-      href="/" as="/#proceedings" icon={faBook} text="Proceedings" iconClassName="mx-2"
+      href="/" as="/#proceedings" icon={faBook} text="Proceedings" iconClassName="mx-1"
       comment="Springer Proceedings"
       onClick={onClick}
     />
