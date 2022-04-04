@@ -11,8 +11,10 @@ import {getDeadlines} from "../libs/deadlines";
 import {getAllFees} from "../libs/fees";
 import Fees from "../components/Fees";
 import Link from "next/link";
+import SponsorsImageGallery from "../components/SponsorsImageGallery";
+import {getAllOrganizations} from "../libs/organizations";
 
-export default function Home({committeeMembers, tracks, topics, deadlines, fees}) {
+export default function Home({committeeMembers, organizations, topics, deadlines, fees}) {
   return (
     <Layout pageTitle={"DCCN'2022"} active="conference">
       <div className="lg:pb-12">
@@ -85,13 +87,13 @@ export default function Home({committeeMembers, tracks, topics, deadlines, fees}
             />
           </div>
 
-          {/*<div>*/}
-          {/*  <h3 className="h3">Organizers & sponsors</h3>*/}
-          {/*  <SponsorsImageGallery*/}
-          {/*    organizations={organizations}*/}
-          {/*    className="mt-8 mb-12 container mx-auto md:w-3/5"*/}
-          {/*  />*/}
-          {/*</div>*/}
+          <div>
+            <h3 className="h3">Organizers & sponsors</h3>
+            <SponsorsImageGallery
+              organizations={organizations}
+              className="mt-8 mb-12 container mx-auto md:w-3/5"
+            />
+          </div>
 
           {/*<div className="mt-12 mb-12">*/}
           {/*  <h3 className="h3">Technical Sponsors</h3>*/}
@@ -143,6 +145,7 @@ export const getStaticProps = async () => {
   const topics = getTopics();
   const deadlines = getDeadlines();
   const fees = getAllFees();
+  const organizations = getAllOrganizations();
 
   return {
     props: {
@@ -150,7 +153,8 @@ export const getStaticProps = async () => {
       committeeMembers,
       tracks,
       topics,
-      fees
+      fees,
+      organizations
     }
   }
 };
