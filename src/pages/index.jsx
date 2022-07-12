@@ -78,7 +78,7 @@ export default function Home({committeeMembers, organizations, topics, deadlines
       <section id="committee" className="pt-120">
         <div className="container mx-auto px-4 pb-12 lg:w-3/4">
 
-          <div className="mb-8">
+          <div className="mb-16">
             <h2 className="h2">Organizers</h2>
             <h3 className="h3 mt-12">Organizing committee</h3>
             <CommitteeMembersList
@@ -89,6 +89,9 @@ export default function Home({committeeMembers, organizations, topics, deadlines
 
           <div>
             <h3 className="h3">Organizers & sponsors</h3>
+            <p className="md:leading-7 md:text-xl md:mx-auto text-gray-700 lg:w-3/4 text-center mt-4">
+              The DCCN-2022 conference is organized under the support of the IEEE Russia Section, Communications Society Chapter (COM19).
+            </p>
             <SponsorsImageGallery
               organizations={organizations}
               className="mt-8 mb-12 container mx-auto md:w-3/5"

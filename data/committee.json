@@ -2,7 +2,7 @@
   "name": "Vladimir M. Vishnevsky",
   "slug": "vishn",
   "chair": true,
-  "affiliations": [{"slug":  "ipu"}],
+  "affiliations": [{"slug":  "ipu"}, {"slug":  "ieee"}],
   "avatar": "/images/avatars/vishnevsky.jpg",
   "order": 1
 }, {
