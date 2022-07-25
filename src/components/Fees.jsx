@@ -14,8 +14,6 @@ const Fees = ({ fees, className = "" }) => {
       <h3 className="h3 mt-12">Payment information</h3>
       <p className="md:leading-7 md:text-xl text-gray-700 mt-8">
         To pay the registration fee (online), please follow the  <a href="https://portal.pfur.ru:4443/Free/OfferPayEn.aspx?num=3222264001150" target="_blank" className="text-blue-500 hover:underline">link</a>.
-      </p>
-      <p className="md:leading-7 md:text-xl text-gray-700 mt-8">
         To participate in DCCN-2022 one has to accept the public offer. The public offer is available at the <a href="/downloads/public_offer.pdf" target="_blank" className="text-blue-500 hover:underline">following link</a>.
         Acceptance of the Offer is carried out by paying the registration fee in the order covered by Section 3 of the Offer, and sending a confirmation of payment to the following email
         address: <a href="mailto:org@dccn.ru" className="text-blue-500 hover:underline">org@dccn.ru</a>.
