@@ -13,6 +13,7 @@ import Fees from "../components/Fees";
 import Link from "next/link";
 import SponsorsImageGallery from "../components/SponsorsImageGallery";
 import {getAllOrganizations} from "../libs/organizations";
+import {Venue} from "../components/Venue";
 
 export default function Home({committeeMembers, organizations, topics, deadlines, fees}) {
   return (
@@ -58,6 +59,13 @@ export default function Home({committeeMembers, organizations, topics, deadlines
         <h2 className="h2">Timeline</h2>
         <div className="container mx-4 md:mx-auto py-12 xl:w-1/2 lg:w-2/3">
           <Timeline deadlines={deadlines}/>
+        </div>
+      </section>
+
+      <section id="venue" className="pt-12">
+        <h2 className="h2">Venue</h2>
+        <div className="container mx-4 md:mx-auto py-12 xl:w-1/2 lg:w-2/3">
+          <Venue />
         </div>
       </section>
 

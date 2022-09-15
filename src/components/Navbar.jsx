@@ -8,6 +8,7 @@ import {
   faCalendarDay,
   faWaveSquare,
   faDesktop,
+  faLocationArrow,
   faNetworkWired,
   faUserFriends, faFileInvoice
 } from '@fortawesome/free-solid-svg-icons';
@@ -178,6 +179,11 @@ const ConferenceMenu = ({onClick}) => (
       onClick={onClick}
     />
     <NavbarDropdownMenuItem
+      href="/" as="/#venue" icon={faLocationArrow} text="Venue"
+      comment="Conference venue"
+      onClick={onClick}
+    />
+    <NavbarDropdownMenuItem
       href="/" as="/#fees" icon={faCoins} text="Registration & Fees"
       comment="Registration fees and discounts for our participants"
       onClick={onClick}
@@ -332,7 +338,7 @@ const NavbarDropdownItem = ({ isActive, text, children, isShown, setIsShown, tai
 const NavbarDropdownMenuItem = ({ href, as = undefined, icon, iconClassName = "mx-1", text, comment, onClick }) => (
   <div onClick={onClick}>
     <Link href={href} as={as}>
-      <a className="-m-3 p-3 flex items-start space-x-4 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
+      <a className="-m-3 p-3 flex items-center space-x-4 rounded-lg hover:bg-gray-50 transition ease-in-out duration-150">
         { icon && <FontAwesomeIcon icon={icon} size="lg" className={`text-indigo-600 ${iconClassName}`} />}
         <div className="space-y-1">
           <p className="text-base leading-6 font-medium text-gray-900 mb-1">{text}</p>
