@@ -1,1 +1,66 @@
-[]
+[
+  {
+    "slug": "kumar",
+    "name": "Neeraj Kumar",
+    "appeal": "Prof.",
+    "country": "India",
+    "affiliations": [
+      {
+        "name": "Thapar Institute of Engineering & Technology",
+        "department": null,
+        "city": null,
+        "country": "India",
+        "position": "Professor"
+      }
+    ],
+    "avatar": "/images/avatars/kumar.png"
+  },
+  {
+    "slug": "jayakody",
+    "name": "Dushantha Nalin K. Jayakody",
+    "appeal": "Prof.",
+    "country": "Sri Lanka",
+    "avatar": "/images/avatars/jayakody.png",
+    "affiliations": [
+      {
+        "name": "Sri Lanka Technological Campus",
+        "city": null,
+        "department": "Centre of Telecommunication Research",
+        "country": "Sri Lanka",
+        "position": "Professor"
+      }
+    ]
+  },
+  {
+    "slug": "muthanna",
+    "name": "Ammar Muthanna",
+    "appeal": "Prof.",
+    "country": "Russia",
+    "avatar": "/images/avatars/muthanna.jpeg",
+    "affiliations": [
+      {
+        "name": "RUDN University",
+        "department": "Scientific Center for Modeling Wireless 5G Networks, Institute of Applied Mathematics and Telecommunications",
+        "city": "Moscow",
+        "country": "Russia",
+        "position": "Professor"
+      }
+    ]
+  },
+  {
+    "slug": "samouylov",
+    "name": "Konstantin Samouylov",
+    "appeal": "Prof.",
+    "country": "Russia",
+    "avatar": "/images/avatars/samouylov_author.jpeg",
+    "affiliations": [
+      {
+        "name": "RUDN University",
+        "department": "Institute of Applied Mathematics and Telecommunications",
+        "country": "Russia",
+        "city": "Moscow",
+        "position": "Professor"
+      }
+    ]
+  }
+]
