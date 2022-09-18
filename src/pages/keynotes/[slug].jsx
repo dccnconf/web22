@@ -10,7 +10,7 @@ import SpeakerSmallCard from "../../components/SpeakerSmallCard";
 // TODO add timetable and duration for each speaker
 const KeynotePage = ({ keynote }) => {
   return (
-    <Layout pageTitle={"Keynote | DCCN'2021"} active="conference">
+    <Layout pageTitle={"Keynote | DCCN'2022"} active="conference">
       {
         keynote && (
           <section className="container mx-auto my-12 py-12">

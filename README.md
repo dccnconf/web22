@@ -1,5 +1,5 @@
 # web20
-NextJS app for DCCN'2021 site
+NextJS app for DCCN'2022 site
 
 Someday the documentation will come :-)
 
