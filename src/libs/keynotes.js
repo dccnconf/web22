@@ -51,6 +51,7 @@ export const getPlenarySchedule = (part = 0) => {
     }
     return newPart;
   });
+
   return plenary;
 };
 
