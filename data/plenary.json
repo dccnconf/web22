@@ -10,11 +10,11 @@
         "endTime": "2022-09-26T13:00+03:00",
         "type": "registration",
         "chairs": [],
-        "name": "Registration (Room 116)"
+        "name": "Registration (Room 220)"
       },
       {
         "id": 1,
-        "name": "DCCN Opening",
+        "name": "DCCN Opening (Room 700)",
         "type": "opening",
         "startTime": "2022-09-26T13:00+03:00",
         "endTime": "2022-09-26T13:15+03:00",
@@ -80,13 +80,6 @@
             "duration": "1h"
           }
         ]
-      },
-      {
-        "id": 6,
-        "startTime": "2022-09-26T18:00+03:00",
-        "endTime": "2022-09-26T19:00+03:00",
-        "type": "break",
-        "name": "Welcome party"
       }
     ]
   }

@@ -15,6 +15,7 @@ import VideoConfCard from "./VideoConfCard";
 import {getTrackTextColor} from "../libs/common/styling";
 
 const ProgramOverview = ({ program, tracks, className = "" }) => {
+
   return (
     <div className={className}>
 
@@ -71,7 +72,7 @@ const ProgramOverview = ({ program, tracks, className = "" }) => {
               </h3>
               {
                 progDay.description && (
-                  <h4 className="text-lg font-extrabold text-gray-600 mt-0 mb-16">{progDay.description}</h4>
+                  <h4 className="text-lg font-extrabold text-gray-600 mt-0 mb-12">{progDay.description}</h4>
                 )
               }
               {/*<VideoConfCard*/}
@@ -99,13 +100,20 @@ function ProgDayTable({progDay, tracks, className = ""} = {}) {
         <tr className="">
           <th className="w-1/7 lg:w-1/12 th pl-2">Time</th>
           {
-            tracks.map(t => (
+            (!progDay.plenary && !progDay.closing) ? tracks.map(t => (
               <th className="th text-center" key={t.letter}>
-                <span className="block lg:hidden">Track {t.letter}</span>
-                <span className="hidden lg:block">Track {t.letter}: {t.name}</span>
-                <span className="hidden lg:block">(Room {t.room})</span>
+
+                  <>
+                    <span className="block lg:hidden">Track {t.letter}</span>
+                    <span className="hidden lg:block">Track {t.letter}: {t.name}</span>
+                    <span className="hidden lg:block">(Room {t.room})</span>
+                  </>
+
               </th>
-            ))
+            )) :
+              progDay.closing && <th className="w-6/7 lg:w-11/12 th pl-2">
+                <span className="block text-center">{progDay.tableTitle}</span>
+              </th>
           }
         </tr>
         </thead>

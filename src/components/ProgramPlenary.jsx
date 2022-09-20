@@ -67,7 +67,6 @@ const TimelineItem = ({ item, children }) => {
 const ItemContent = ({ item, className = "" } = {}) => {
   switch (item.type) {
     case "registration":
-    case "opening":
       return <OpeningItemContent item={item} className={className} />;
     case "session":
     case "break":
@@ -76,6 +75,7 @@ const ItemContent = ({ item, className = "" } = {}) => {
     case "lecture":
       return <LectureItemContent item={item} className={className} />
     case "welcomeSpeech":
+    case "opening":
       return <WelcomeSpeechItemContent item={item} className={className} />;
     default:
       return <></>
@@ -98,7 +98,7 @@ const OpeningItemContent = ({ item, className = "" } = {}) => (
 const WelcomeSpeechItemContent = ({ item, className = "" } = {}) => {
   return <div className={className}>
     <p className="text-indigo-600 font-extrabold mb-0">
-      <Moment format="DD MMM, HH:mm">{item.startTime}</Moment>
+      <Moment format="HH:mm">{item.startTime}</Moment>
     </p>
     <h6 className="text-xl font-bold text-gray-800">{item.name}</h6>
     {item.chairs.map(c => {

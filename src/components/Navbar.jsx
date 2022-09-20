@@ -81,7 +81,16 @@ export default function Navbar({ active = 'conference' }) {
               </NavbarDropdownItem>
 
               <NavbarLink text="Authors" isActive={active === 'authors'} href="/authors" />
-              <NavbarLink text="Program" isActive={active === 'program'} href="/program" />
+
+              <NavbarDropdownItem
+                isActive={active === 'program'}
+                text="Program"
+                isShown={isShown.program}
+                setIsShown={shown => setIsMenuShown('program', shown)}
+              >
+                <ProgramMenu onClick={closeAll} />
+              </NavbarDropdownItem>
+
               <NavbarLink text="Support" isActive={active === 'support'} href="/support" />
 
             </nav>
@@ -225,21 +234,21 @@ const ProgramMenu = ({onClick}) => (
       comment="Learn more about the plenary session, keynote speakers and presentations"
       onClick={onClick}
     />
-    <NavbarDropdownMenuItem
-      href="/program" as="/program#tra" icon={faNetworkWired} text="Track A: Computer and Communication Networks"
-      comment="General sessions schedule for Computer and Communication Networks track"
-      onClick={onClick}
-    />
-    <NavbarDropdownMenuItem
-      href="/program" as="/program#trb" icon={faWaveSquare} text="Track B: Analytical Modeling of Distributed Systems"
-      comment="General sessions schedule for Analytical Modeling of Distributed Systems track"
-      onClick={onClick}
-    />
-    <NavbarDropdownMenuItem
-      href="/program" as="/program#trc" icon={faDesktop} text="Track C: Distributed Systems Applications"
-      comment="General sessions schedule for Distributed Systems Applications track"
-      onClick={onClick}
-    />
+    {/*<NavbarDropdownMenuItem*/}
+    {/*  href="/program" as="/program#tra" icon={faNetworkWired} text="Track A: Computer and Communication Networks"*/}
+    {/*  comment="General sessions schedule for Computer and Communication Networks track"*/}
+    {/*  onClick={onClick}*/}
+    {/*/>*/}
+    {/*<NavbarDropdownMenuItem*/}
+    {/*  href="/program" as="/program#trb" icon={faWaveSquare} text="Track B: Analytical Modeling of Distributed Systems"*/}
+    {/*  comment="General sessions schedule for Analytical Modeling of Distributed Systems track"*/}
+    {/*  onClick={onClick}*/}
+    {/*/>*/}
+    {/*<NavbarDropdownMenuItem*/}
+    {/*  href="/program" as="/program#trc" icon={faDesktop} text="Track C: Distributed Systems Applications"*/}
+    {/*  comment="General sessions schedule for Distributed Systems Applications track"*/}
+    {/*  onClick={onClick}*/}
+    {/*/>*/}
   </>
 );
 
