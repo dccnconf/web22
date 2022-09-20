@@ -1,13 +1,13 @@
 [
   {
-    "date": "2021-09-26",
+    "date": "2022-09-26",
     "links": [],
     "video": null,
     "parts": [
       {
         "id": 0,
-        "startTime": "2021-09-26T11:00+03:00",
-        "endTime": "2021-09-26T13:00+03:00",
+        "startTime": "2022-09-26T11:00+03:00",
+        "endTime": "2022-09-26T13:00+03:00",
         "type": "registration",
         "chairs": [],
         "name": "Registration (Room 116)"
@@ -16,37 +16,37 @@
         "id": 1,
         "name": "DCCN Opening",
         "type": "opening",
-        "startTime": "2021-09-26T13:00+03:00",
-        "endTime": "2021-09-26T13:15+03:00",
+        "startTime": "2022-09-26T13:00+03:00",
+        "endTime": "2022-09-26T13:15+03:00",
         "chairs": []
       },
       {
         "id": 2,
         "name": "Welcome Speech",
         "type": "welcomeSpeech",
-        "startTime": "2021-09-26T13:15+03:00",
-        "endTime": "2021-09-26T13:30+03:00",
+        "startTime": "2022-09-26T13:15+03:00",
+        "endTime": "2022-09-26T13:30+03:00",
         "chairs": []
       },
       {
         "id": 3,
         "name": "Plenary Session",
         "type": "session",
-        "startTime": "2021-09-26T13:30+03:00",
-        "endTime": "2021-09-26T15:30+03:00",
+        "startTime": "2022-09-26T13:30+03:00",
+        "endTime": "2022-09-26T15:30+03:00",
         "lectures": [
           {
             "speaker": {
               "slug": "kumar"
             },
-            "startTime": "2021-09-26T13:30+03:00",
+            "startTime": "2022-09-26T13:30+03:00",
             "duration": "1h"
           },
           {
             "speaker": {
               "slug": "jayakody"
             },
-            "startTime": "2021-09-26T14:30+03:00",
+            "startTime": "2022-09-26T14:30+03:00",
             "duration": "1h"
           }
         ]
@@ -55,36 +55,36 @@
         "id": 4,
         "name": "Coffee Break",
         "type": "break",
-        "startTime": "2021-09-20T15:30+03:00",
-        "endTime": "2021-09-20T16:00+03:00"
+        "startTime": "2022-09-20T15:30+03:00",
+        "endTime": "2022-09-20T16:00+03:00"
       },
       {
         "id": 5,
         "name": "Plenary Session",
         "type": "session",
-        "startTime": "2021-09-20T16:00+03:00",
-        "endTime": "2021-09-20T18:00+03:00",
+        "startTime": "2022-09-20T16:00+03:00",
+        "endTime": "2022-09-20T18:00+03:00",
         "lectures": [
           {
             "speaker": {
               "slug": "muthanna"
             },
-            "startTime": "2021-09-20T16:00+03:00",
+            "startTime": "2022-09-20T16:00+03:00",
             "duration": "1h"
           },
           {
             "speaker": {
               "slug": "samouylov"
             },
-            "startTime": "2021-09-20T17:00+03:00",
+            "startTime": "2022-09-20T17:00+03:00",
             "duration": "1h"
           }
         ]
       },
       {
         "id": 6,
-        "startTime": "2021-09-26T18:00+03:00",
-        "endTime": "2021-09-26T19:00+03:00",
+        "startTime": "2022-09-26T18:00+03:00",
+        "endTime": "2022-09-26T19:00+03:00",
         "type": "break",
         "name": "Welcome party"
       }
