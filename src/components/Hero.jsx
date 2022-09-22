@@ -19,7 +19,7 @@ export default function Hero({ plenary }) {
         </h2>
         <br className="hidden lg:block lg:mt-12"/>
         <p className="mt-3 text-lg font-bold sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-2xl lg:mx-0">
-          <span className="text-gray-900">26-30 September 2022</span>
+          <span className="text-gray-900">26-29 September 2022</span>
           <br/>
           <span className="text-gray-500">Moscow, Russia</span>
           {/*<span className="ml-2 text-indigo-600">@online</span>*/}
