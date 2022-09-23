@@ -29,17 +29,17 @@ const ProgramPage = ({ program, tracks, plenary }) => {
         </div>
       </section>
 
-      {/*{*/}
-      {/*  tracks.map((track, index) => (*/}
-      {/*    <section className={`pt-4 pb-12 ${getTrackBgColor(track)}`} id={track.slug} key={index}>*/}
-      {/*      <div className="container mx-auto md:w-3/4 px-4 md:px-8 my-12">*/}
-      {/*        <h2 className="h2 text-4xl leading-tight">Track {track.letter}</h2>*/}
-      {/*        <h3 className="text-2xl font-bold text-center leading-tight mt-0 text-gray-600">{track.name}</h3>*/}
-      {/*        <TrackProgram track={track} program={program} />*/}
-      {/*      </div>*/}
-      {/*    </section>*/}
-      {/*  ))*/}
-      {/*}*/}
+      {
+        tracks.map((track, index) => (
+          <section className={`pt-4 pb-12 ${getTrackBgColor(track)}`} id={track.slug} key={index}>
+            <div className="container mx-auto md:w-3/4 px-4 md:px-8 my-12">
+              <h2 className="h2 text-4xl leading-tight">Track {track.letter}</h2>
+              <h3 className="text-2xl font-bold text-center leading-tight mt-0 text-gray-600">{track.name}</h3>
+              <TrackProgram track={track} program={program} />
+            </div>
+          </section>
+        ))
+      }
     </Layout>
   );
 };

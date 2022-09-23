@@ -21,9 +21,10 @@ def load_papers_ids():
 def load_papers_data(paper_ids):
     papers = []
     for paper_id in tqdm(paper_ids):
-        url = f'https://uconfy.com/papers/api/papers/{paper_id}'
-        response = requests.get(url)
-        papers.append(response.json())
+        if paper_id != "add1" and paper_id != "add2":
+            url = f'https://uconfy.com/papers/api/papers/{paper_id}'
+            response = requests.get(url)
+            papers.append(response.json())
     return papers
 
 

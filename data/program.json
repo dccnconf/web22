@@ -236,138 +236,183 @@
   ],
   "chairs": [
     {
+      "name": "A.Muthanna",
+      "slug": "muth",
+      "appeal": "Dr."
+    },
+    {
       "name": "Vladimir M. Vishnevsky",
       "slug": "vishn",
       "appeal": "Prof.",
-      "affiliations": [{"slug":  "ipu"}],
+      "affiliations": [
+        {
+          "slug": "ipu"
+        }
+      ],
       "avatar": "/images/avatars/vishnevsky.jpg"
-    }, {
+    },
+    {
       "name": "Konstantin E. Samouylov",
       "slug": "sam",
       "appeal": "Prof.",
-      "affiliations": [{"slug":  "rudn"}],
+      "affiliations": [
+        {
+          "slug": "rudn"
+        }
+      ],
       "avatar": "/images/avatars/samouylov.jpg"
-    }, {
+    },
+    {
       "name": "Yu. Gaidamaka",
       "slug": "yug",
       "appeal": "Prof."
-    }, {
+    },
+    {
       "name": "E. Sopin",
       "slug": "sop",
       "appeal": "Dr."
-    }, {
+    },
+    {
       "name": "D. Namiot",
       "slug": "nam",
       "appeal": "Prof."
-    }, {
+    },
+    {
       "name": "L. Abrosimov",
       "slug": "abr",
       "appeal": "Prof."
-    }, {
+    },
+    {
       "name": "V. Gerdt",
       "slug": "ger",
       "appeal": "Prof."
-    }, {
+    },
+    {
       "name": "V. Abgaryan",
       "slug": "abg",
       "appeal": "Prof."
-    }, {
+    },
+    {
       "name": "S. Stepanov",
       "slug": "ste",
       "appeal": "Prof."
-    }, {
+    },
+    {
       "name": "A. Melikov",
       "slug": "mel",
       "appeal": "Prof."
-    }, {
+    },
+    {
       "name": "A. Nazarov",
       "slug": "naz",
       "appeal": "Prof."
-    }, {
+    },
+    {
       "name": "M. Pagano",
       "slug": "pag",
       "appeal": "Prof."
-    }, {
+    },
+    {
       "name": "E. Morozov",
       "slug": "mor",
       "appeal": "Prof."
-    }, {
+    },
+    {
       "name": "D. Efrosinin",
       "slug": "efr",
       "appeal": "Prof."
-    }, {
+    },
+    {
       "name": "S. Vasilyev",
       "slug": "vas",
       "appeal": "Dr."
-    }, {
+    },
+    {
       "name": "A. Andronov",
       "slug": "and",
       "appeal": "Prof"
-    }, {
+    },
+    {
       "name": "V. Rykov",
       "slug": "ryk",
       "appeal": "Prof."
-    }, {
+    },
+    {
       "name": "T. Atanasova",
       "slug": "ata",
       "appeal": "Prof."
-    }, {
+    },
+    {
       "name": "E. Shchetinin",
       "slug": "shc",
       "appeal": "Prof."
-    }, {
+    },
+    {
       "name": "D. Kulyabov",
       "slug": "kul",
       "appeal": "Prof."
-    }, {
+    },
+    {
       "name": "A. Krishnamoorthy",
       "slug": "kri",
       "appeal": "Prof."
-    }, {
+    },
+    {
       "name": "Varghese C. Joshua",
       "slug": "jos",
       "appeal": "Prof."
-    }, {
+    },
+    {
       "name": "A. Dudin",
       "slug": "dud",
       "appeal": "Prof."
-    }, {
+    },
+    {
       "name": "O. Semenova",
       "slug": "sem",
-      "appeal": "Dr."
-    }, {
+      "appeal": "Prof."
+    },
+    {
       "name": "N. Markovich",
       "slug": "mar",
       "appeal": "Prof."
-    }, {
+    },
+    {
       "name": "U. Krieger",
       "slug": "krieg",
       "appeal": "Prof."
-    }, {
+    },
+    {
       "name": "A. Koucheryavy",
       "slug": "kou",
       "appeal": "Prof."
-    }, {
+    },
+    {
       "name": "I. Kochetkova",
       "slug": "koc",
       "appeal": "Dr."
-    }, {
+    },
+    {
       "name": "R. Kirichek",
       "slug": "kir",
       "appeal": "Prof."
-    }, {
+    },
+    {
       "name": "D. Ostrikova",
       "slug": "ost",
       "appeal": "Dr."
-    }, {
+    },
+    {
       "name": "M. Makolkina",
       "slug": "mak",
       "appeal": "Dr."
-    }, {
+    },
+    {
       "name": "E. Markova",
       "slug": "ema",
       "appeal": "Dr."
-    }, {
+    },
+    {
       "name": "M. Gevorkyan",
       "slug": "gev",
       "appeal": "Dr."
@@ -385,6 +430,21 @@
     {
       "name": "E. Schetinin",
       "slug": "sch",
+      "appeal": "Prof."
+    },
+    {
+      "name": "E. Bogatyrev",
+      "slug": "bog",
+      "appeal": "Prof."
+    },
+    {
+      "name": "S. Moiseeva",
+      "slug": "moi",
+      "appeal": "Prof."
+    },
+    {
+      "name": "A.Mandel",
+      "slug": "man",
       "appeal": "Prof."
     }
   ],
@@ -406,8 +466,48 @@
       "track": {
         "slug": "tra"
       },
-      "chairs": [],
-      "lectures": []
+      "chairs": [
+        {
+          "slug": "vishn"
+        },
+        {
+          "slug": "sam"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 1442,
+          "startTime": "2022-09-27T11:00+03:00"
+        },
+        {
+          "paperId": 1279,
+          "startTime": "2022-09-27T11:15+03:00"
+        },
+        {
+          "paperId": 1270,
+          "startTime": "2022-09-27T11:30+03:00"
+        },
+        {
+          "paperId": 1265,
+          "startTime": "2022-09-27T11:45+03:00"
+        },
+        {
+          "paperId": 1323,
+          "startTime": "2022-09-27T12:00+03:00"
+        },
+        {
+          "paperId": 1304,
+          "startTime": "2022-09-27T12:15+03:00"
+        },
+        {
+          "paperId": 1437,
+          "startTime": "2022-09-27T12:30+03:00"
+        },
+        {
+          "paperId": 1202,
+          "startTime": "2022-09-27T12:45+03:00"
+        }
+      ]
     },
     {
       "slug": "A.1.2",
@@ -415,17 +515,44 @@
       "track": {
         "slug": "tra"
       },
-      "chairs": [],
-      "lectures": []
-    },
-    {
-      "slug": "A.1.3",
-      "name": "A.1.3",
-      "track": {
-        "slug": "tra"
-      },
-      "chairs": [],
-      "lectures": []
+      "chairs": [
+        {
+          "slug": "kou"
+        },
+        {
+          "slug": "muth"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 1635,
+          "startTime": "2022-09-27T13:30+03:00"
+        },
+        {
+          "paperId": 1513,
+          "startTime": "2022-09-27T13:45+03:00"
+        },
+        {
+          "paperId": 1531,
+          "startTime": "2022-09-27T14:00+03:00"
+        },
+        {
+          "paperId": 1532,
+          "startTime": "2022-09-27T14:15+03:00"
+        },
+        {
+          "paperId": 1238,
+          "startTime": "2022-09-27T14:30+03:00"
+        },
+        {
+          "paperId": 1263,
+          "startTime": "2022-09-27T14:45+03:00"
+        },
+        {
+          "paperId": 1266,
+          "startTime": "2022-09-27T15:00+03:00"
+        }
+      ]
     },
     {
       "slug": "A.2.1",
@@ -435,12 +562,42 @@
       },
       "chairs": [
         {
-          "slug": "nam"
-        }, {
-          "slug": "abr"
+          "slug": "bog"
+        },
+        {
+          "slug": "koc"
         }
       ],
-      "lectures": []
+      "lectures": [
+        {
+          "paperId": 1292,
+          "startTime": "2022-09-28T11:00+03:00"
+        },
+        {
+          "paperId": 1297,
+          "startTime": "2022-09-28T11:15+03:00"
+        },
+        {
+          "paperId": 1199,
+          "startTime": "2022-09-28T11:30+03:00"
+        },
+        {
+          "paperId": 1205,
+          "startTime": "2022-09-28T11:45+03:00"
+        },
+        {
+          "paperId": 1193,
+          "startTime": "2022-09-28T12:00+03:00"
+        },
+        {
+          "paperId": 1171,
+          "startTime": "2022-09-28T12:15+03:00"
+        },
+        {
+          "paperId": 1200,
+          "startTime": "2022-09-28T12:30+03:00"
+        }
+      ]
     },
     {
       "slug": "A.2.2",
@@ -448,8 +605,44 @@
       "track": {
         "slug": "tra"
       },
-      "chairs": [],
-      "lectures": []
+      "chairs": [
+        {
+          "slug": "ste"
+        },
+        {
+          "slug": "sop"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 1184,
+          "startTime": "2022-09-28T13:30+03:00"
+        },
+        {
+          "paperId": 1235,
+          "startTime": "2022-09-28T13:45+03:00"
+        },
+        {
+          "paperId": 1241,
+          "startTime": "2022-09-28T14:00+03:00"
+        },
+        {
+          "paperId": 1170,
+          "startTime": "2022-09-28T14:15+03:00"
+        },
+        {
+          "paperId": 1183,
+          "startTime": "2022-09-28T14:30+03:00"
+        },
+        {
+          "paperId": 1187,
+          "startTime": "2022-09-28T14:45+03:00"
+        },
+        {
+          "paperId": 1189,
+          "startTime": "2022-09-28T15:00+03:00"
+        }
+      ]
     },
     {
       "slug": "B.1.1",
@@ -460,11 +653,45 @@
       "chairs": [
         {
           "slug": "dud"
-        }, {
-          "slug": "kim"
+        },
+        {
+          "slug": "sem"
         }
       ],
-      "lectures": []
+      "lectures": [
+        {
+          "paperId": 1,
+          "startTime": "2022-09-27T11:00+03:00"
+        },
+        {
+          "paperId": 1746,
+          "startTime": "2022-09-27T11:15+03:00"
+        },
+        {
+          "paperId": 1535,
+          "startTime": "2022-09-27T11:30+03:00"
+        },
+        {
+          "paperId": 1478,
+          "startTime": "2022-09-27T11:45+03:00"
+        },
+        {
+          "paperId": 1268,
+          "startTime": "2022-09-27T12:00+03:00"
+        },
+        {
+          "paperId": 1185,
+          "startTime": "2022-09-27T12:15+03:00"
+        },
+        {
+          "paperId": 1222,
+          "startTime": "2022-09-27T12:30+03:00"
+        },
+        {
+          "paperId": 1258,
+          "startTime": "2022-09-27T12:45+03:00"
+        }
+      ]
     },
     {
       "slug": "B.1.2",
@@ -472,8 +699,48 @@
       "track": {
         "slug": "trb"
       },
-      "chairs": [],
-      "lectures": []
+      "chairs": [
+        {
+          "slug": "and"
+        },
+        {
+          "slug": "ryk"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 1192,
+          "startTime": "2022-09-27T13:30+03:00"
+        },
+        {
+          "paperId": 1295,
+          "startTime": "2022-09-27T13:45+03:00"
+        },
+        {
+          "paperId": 1296,
+          "startTime": "2022-09-27T14:00+03:00"
+        },
+        {
+          "paperId": 1186,
+          "startTime": "2022-09-27T14:15+03:00"
+        },
+        {
+          "paperId": 1293,
+          "startTime": "2022-09-27T14:30+03:00"
+        },
+        {
+          "paperId": 1260,
+          "startTime": "2022-09-27T14:45+03:00"
+        },
+        {
+          "paperId": 1203,
+          "startTime": "2022-09-27T15:00+03:00"
+        },
+        {
+          "paperId": 1257,
+          "startTime": "2022-09-27T15:15+03:00"
+        }
+      ]
     },
     {
       "slug": "B.1.3",
@@ -481,8 +748,48 @@
       "track": {
         "slug": "trb"
       },
-      "chairs": [],
-      "lectures": []
+      "chairs": [
+        {
+          "slug": "efr"
+        },
+        {
+          "slug": "ryk"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 1229,
+          "startTime": "2022-09-27T16:00+03:00"
+        },
+        {
+          "paperId": 1255,
+          "startTime": "2022-09-27T16:15+03:00"
+        },
+        {
+          "paperId": 1216,
+          "startTime": "2022-09-27T16:30+03:00"
+        },
+        {
+          "paperId": 1243,
+          "startTime": "2022-09-27T16:45+03:00"
+        },
+        {
+          "paperId": 1458,
+          "startTime": "2022-09-27T17:00+03:00"
+        },
+        {
+          "paperId": 1253,
+          "startTime": "2022-09-27T17:15+03:00"
+        },
+        {
+          "paperId": 1240,
+          "startTime": "2022-09-27T17:30+03:00"
+        },
+        {
+          "paperId": 1179,
+          "startTime": "2022-09-27T17:45+03:00"
+        }
+      ]
     },
     {
       "slug": "B.2.1",
@@ -490,8 +797,48 @@
       "track": {
         "slug": "trb"
       },
-      "chairs": [],
-      "lectures": []
+      "chairs": [
+        {
+          "slug": "naz"
+        },
+        {
+          "slug": "moi"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 1624,
+          "startTime": "2022-09-28T11:00+03:00"
+        },
+        {
+          "paperId": 1251,
+          "startTime": "2022-09-28T11:15+03:00"
+        },
+        {
+          "paperId": 1233,
+          "startTime": "2022-09-28T11:30+03:00"
+        },
+        {
+          "paperId": 1250,
+          "startTime": "2022-09-28T11:45+03:00"
+        },
+        {
+          "paperId": 1234,
+          "startTime": "2022-09-28T12:00+03:00"
+        },
+        {
+          "paperId": 1250,
+          "startTime": "2022-09-28T12:15+03:00"
+        },
+        {
+          "paperId": 1246,
+          "startTime": "2022-09-28T12:30+03:00"
+        },
+        {
+          "paperId": 1247,
+          "startTime": "2022-09-28T12:45+03:00"
+        }
+      ]
     },
     {
       "slug": "B.2.2",
@@ -499,8 +846,48 @@
       "track": {
         "slug": "trb"
       },
-      "chairs": [],
-      "lectures": []
+      "chairs": [
+        {
+          "slug": "szt"
+        },
+        {
+          "slug": "mor"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 1207,
+          "startTime": "2022-09-28T13:30+03:00"
+        },
+        {
+          "paperId": 1237,
+          "startTime": "2022-09-28T13:45+03:00"
+        },
+        {
+          "paperId": 1254,
+          "startTime": "2022-09-28T14:00+03:00"
+        },
+        {
+          "paperId": 1239,
+          "startTime": "2022-09-28T14:15+03:00"
+        },
+        {
+          "paperId": 1248,
+          "startTime": "2022-09-28T14:30+03:00"
+        },
+        {
+          "paperId": 1252,
+          "startTime": "2022-09-28T14:45+03:00"
+        },
+        {
+          "paperId": 1259,
+          "startTime": "2022-09-28T15:00+03:00"
+        },
+        {
+          "paperId": 1433,
+          "startTime": "2022-09-28T15:15+03:00"
+        }
+      ]
     },
     {
       "slug": "B.2.3",
@@ -508,17 +895,44 @@
       "track": {
         "slug": "trb"
       },
-      "chairs": [],
-      "lectures": []
-    },
-    {
-      "slug": "B.3.1",
-      "name": "B.3.1",
-      "track": {
-        "slug": "trb"
-      },
-      "chairs": [],
-      "lectures": []
+      "chairs": [
+        {
+          "slug": "mar"
+        },
+        {
+          "slug": "man"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 1177,
+          "startTime": "2022-09-28T16:00+03:00"
+        },
+        {
+          "paperId": 1194,
+          "startTime": "2022-09-28T16:15+03:00"
+        },
+        {
+          "paperId": 1211,
+          "startTime": "2022-09-28T16:30+03:00"
+        },
+        {
+          "paperId": 1212,
+          "startTime": "2022-09-28T16:45+03:00"
+        },
+        {
+          "paperId": 1223,
+          "startTime": "2022-09-28T17:00+03:00"
+        },
+        {
+          "paperId": 1204,
+          "startTime": "2022-09-28T17:15+03:00"
+        },
+        {
+          "paperId": 1281,
+          "startTime": "2022-09-28T17:30+03:00"
+        }
+      ]
     },
     {
       "slug": "C.1.1",
@@ -526,8 +940,48 @@
       "track": {
         "slug": "trc"
       },
-      "chairs": [],
-      "lectures": []
+      "chairs": [
+        {
+          "slug": "yug"
+        },
+        {
+          "slug": "ost"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 1417,
+          "startTime": "2022-09-27T11:00+03:00"
+        },
+        {
+          "paperId": 1282,
+          "startTime": "2022-09-27T11:15+03:00"
+        },
+        {
+          "paperId": 1421,
+          "startTime": "2022-09-27T11:30+03:00"
+        },
+        {
+          "paperId": 1275,
+          "startTime": "2022-09-27T11:45+03:00"
+        },
+        {
+          "paperId": 1272,
+          "startTime": "2022-09-27T12:00+03:00"
+        },
+        {
+          "paperId": 1291,
+          "startTime": "2022-09-27T12:15+03:00"
+        },
+        {
+          "paperId": 1450,
+          "startTime": "2022-09-27T12:30+03:00"
+        },
+        {
+          "paperId": 1451,
+          "startTime": "2022-09-27T12:45+03:00"
+        }
+      ]
     },
     {
       "slug": "C.1.2",
@@ -535,26 +989,48 @@
       "track": {
         "slug": "trc"
       },
-      "chairs": [],
-      "lectures": []
-    },
-    {
-      "slug": "C.2.1",
-      "name": "C.2.1",
-      "track": {
-        "slug": "trc"
-      },
-      "chairs": [],
-      "lectures": []
-    },
-    {
-      "slug": "C.3.1",
-      "name": "C.3.1",
-      "track": {
-        "slug": "trc"
-      },
-      "chairs": [],
-      "lectures": []
+      "chairs": [
+        {
+          "slug": "nam"
+        },
+        {
+          "slug": "kul"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 1277,
+          "startTime": "2022-09-27T13:30+03:00"
+        },
+        {
+          "paperId": 1210,
+          "startTime": "2022-09-27T13:45+03:00"
+        },
+        {
+          "paperId": 1218,
+          "startTime": "2022-09-27T14:00+03:00"
+        },
+        {
+          "paperId": 1283,
+          "startTime": "2022-09-27T14:15+03:00"
+        },
+        {
+          "paperId": 1198,
+          "startTime": "2022-09-27T14:30+03:00"
+        },
+        {
+          "paperId": 1206,
+          "startTime": "2022-09-27T14:45+03:00"
+        },
+        {
+          "paperId": 1231,
+          "startTime": "2022-09-27T15:00+03:00"
+        },
+        {
+          "paperId": 1242,
+          "startTime": "2022-09-27T15:15+03:00"
+        }
+      ]
     }
   ]
 }

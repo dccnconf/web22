@@ -1,1 +1,872 @@
-[]
+[
+  {
+    "id": 1,
+    "title": "Performance Analysis for Tethered HAP Systems: An Analytical Approach",
+    "authors": [
+      "Dharmaraja Selvamuthu", "Vidyottama Jain", "Raina Raj"
+    ]
+  },
+  {
+    "id": 1222,
+    "title": "On Estimating the Average Response Time of HighPerformance Computing Environments",
+    "abstract": "Parallel and distributed computing have become widespread as one of the main ways to improve the performance of computing environments when processing big data. The issue of assessing the main performance indicators of such systems remains relevant to the present time due to the complexity of such an analysis. A fork-join queuing system is well suited for modeling parallel data processing. The article explores the possibility of estimating the average response time of the system using an analytical expression for the upper bound of the maximum order statistics. Two options are described, depending on the amount of knowledge available about the operation of a high-performance environment. The results of the numerical experiment confirm the efficiency of the approach for a fairly wide range of parameters, one of the main advantages of which is the ease of use.",
+    "authors": [
+      "Anastasia Gorbunova", "Vladimir Vishnevsky"
+    ]
+  },
+  {
+    "id": 1283,
+    "title": "Application of convolutional neural networks for image\ndetection and recognition based on self-written generator ",
+    "abstract": "Object recognition is a branch of artificial vision and one of the pillars of machine vision. It consists of the identification of forms pre-described in a digital image and, in general, in a digital video stream. While it is generally possible to perform recognition on video clips, the learning process is usually performed on images. In this paper, we consider an algorithm for classifying and recognizing objects using convolutional neural networks. The purpose of the work is to implement an algorithm for detecting and classifying various graphic objects fed from a webcam. The task is to first classify and recognize an object with high accuracy according to a given dataset and then demonstrate how to generate images to increase the size of the training data set using a self-written generator. The classification and recognition algorithm used is invariant to translation, translation, and rotation. A significant novelty in this work is the creation of a self-written generator that allows you to apply various types of augmentation (artificial increase in the size of the training sample by modifying the training data) to form new groups (batches) of modified images each time.",
+    "authors": [
+      "Bienvenue N'dah Mouale Moutouama", "Dmitry Kozyrev"
+    ]
+  },
+  {
+    "id": 1442,
+    "title": "New filtering method to reduce PAPR and OOBE of UFMC in 5G communication system",
+    "abstract": "Several aspects of the new communication systems reflect the flexibility, coexistence, and diversity of 5G systems. Filtering communication window is a well-known method for generating desired Universal Filtered Multi Carrier (UFMC). Researchers are continuously developing new filtering methods to reduce PAPR and OOBE produced by the methods of traditional multicarrier in the communication systems, due to the current need for new technologies in 5G communication systems. When it comes to wireless communication systems, the UFMC is often viewed as the most significant technology, this study contributed in developing new filtering method to attain a better match with current necessities and requirements for new technologies. The proposed method entails deploying pulse shape windowing and evaluating windowing filters across multiple communication bands. Through assessment, this process reduces PAPR and OOBE while increasing spectral efficiency. The results showed the use of new filtering methods outperformed the previous proposed method -70dBm for the OOBE reduction and 10 dB for PAPR reduction. It could be concluded that the new method produced significant results in UFMC systems, giving 5G wireless communication systems a competitive advantage.",
+    "authors": [
+      "Yousif Hammadi",
+      "Omar Mahmood",
+      "Ammar Muthanna"
+    ]
+  },
+  {
+    "id": 1279,
+    "title": "Queueing system for analyzing the operation of 5G network with NS under preemption-based scheduler",
+    "abstract": "The rapid deployment of the fifth generation (5G) of wireless systems since 2020 is profoundly transforming the telecommunication area, paving the way for new-generation networks that include more devices, are more reliable and enable faster communications. The network slicing (NS) technology, considered as one of the 5G systems' key features, allows the operation of several virtual networks called network slice instances (NSIs) on top of the same physical infrastructure, e.g. a base station. Ensuring a satisfactory quality of service (QoS) level under NS technology is an important task, probably requiring to use the guaranteed's bit rate (GBR) QoS concept. In this paper, a queueing system model for analyzing the operation of three 5G NSIs under a preemption-based scheduler maintaining the required QoS levels is proposed. The system's key performance indicators (KPIs) are defined and computed.",
+    "authors": [
+      "Yves Adou",
+      "Ekaterina Markova",
+      "Yuliya Gaidamaka"
+    ]
+  },
+  {
+    "id": 1270,
+    "title": "Analytical model of data transmission through NarrowBand-IoT technology",
+    "abstract": "The paper considers a network formed by a swarm of drones exchanging data in the absence of information about relative positioning, for example, when there are no connections to a satellite geolocation system and a cellular network. For the scenario where one of the drones is a receiver and the rest are transmitters, using the apparatus of the theory of random processes and the mathematical teletraffic theory, a method is proposed to estimate the main indicators of the efficiency of data exchange between drones, to analyze key performance metrics, namely, message loss probability, data transmission delay, spent energy per message transaction, and battery lifetime distribution.",
+    "authors": [
+      "Patatchona Keyela",
+      "Irina Yartseva",
+      "Yuliya Gaidamaka"
+    ]
+  },
+  {
+    "id": 1265,
+    "title": "Performance modeling of multimedia traffic delivery in WLAN using simulation",
+    "abstract": "The multimedia traffic in WLAN causes overloads. During WLAN overloads the packets are stuck in WNIC buffer and the delivery time increases. Performance analysis of the 802.11  WLAN has been studied in detail recently but the specificity of multimedia traffic transmission in WLAN (the buffer size,  wait time limit) has not been sufficiently studied. This paper propose a  performance modeling approach using a combination of analytical modeling and simulation.",
+    "authors": [
+      "Margarita Orlova",
+      "Leonid Abrosimov"
+    ]
+  },
+  {
+    "id": 1323,
+    "title": "Firewall simulator development for performance evaluation of ranging a filtration rules set",
+    "abstract": "This paper is written as a continuation of works devoted to solving the task of increasing the firewall performance in conditions of high heterogeneity and variability of the parameters of the filtered network traffic. The paper shows a simulation model that is intended for the evaluation of the major performance indicators of a firewall when ranging a filtration rule set. We\u2019ve evaluated the effectiveness of the method for ranging a filtration rule set (it was developed earlier by the authors) for various parameters of the simulation model and different scenarios of network traffic behavior.",
+    "authors": [
+      "Anatoliy Botvinko",
+      "Konstantin Samouylov"
+    ]
+  },
+  {
+    "id": 1304,
+    "title": "\u0418\u043d\u0434\u0443\u0441\u0442\u0440\u0438\u044f 4.0, \u0441\u0438\u0441\u0442\u0435\u043c\u0430 Mesh, \u043c\u043e\u0434\u0435\u043b\u0438 \u0438 \u044d\u043a\u043e\u0441\u0438\u0441\u0442\u0435\u043c\u0430 NG \u0441\u0435\u0442\u0435\u0439",
+    "abstract": "\u0420\u0430\u0441\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u043a\u043e\u043d\u0446\u0435\u043f\u0446\u0438\u044f \u0438 \u043d\u043e\u0432\u044b\u0435 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0438 \u0427\u0435\u0442\u0432\u0451\u0440\u0442\u043e\u0439 \u043f\u0440\u043e\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0439 \u0440\u0435\u0432\u043e\u043b\u044e\u0446\u0438\u0438 (\u0418\u043d\u0434\u0443\u0441\u0442\u0440\u0438\u0438 4.0). \u041e\u0431\u0441\u0443\u0436\u0434\u0430\u044e\u0442\u0441\u044f \u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438 Mesh \u0441\u0438\u0441\u0442\u0435\u043c \u0434\u043e\u0441\u0442\u0443\u043f\u0430 \u0432 \u0441\u0435\u0442\u044f\u0445 \u043d\u043e\u0432\u044b\u0445 \u043f\u043e\u043a\u043e\u043b\u0435\u043d\u0438\u0439 NG (4G, 5G). \u0424\u043e\u0440\u043c\u0443\u043b\u0438\u0440\u0443\u044e\u0442\u0441\u044f \u0437\u0430\u0434\u0430\u0447\u0438, \u0440\u0435\u0448\u0430\u0435\u043c\u044b\u0435 \u043d\u0430 \u0440\u0430\u0437\u043d\u044b\u0445 \u044d\u0442\u0430\u043f\u0430\u0445 \u0436\u0438\u0437\u043d\u0435\u043d\u043d\u043e\u0433\u043e \u0446\u0438\u043a\u043b\u0430 \u0441\u0435\u0442\u0435\u0439 NG. \u041f\u0440\u0435\u0434\u043b\u0430\u0433\u0430\u044e\u0442\u0441\u044f \u0440\u0435\u0448\u0435\u043d\u0438\u044f, \u0432 \u043a\u043e\u0442\u043e\u0440\u044b\u0445 \u0441\u0435\u0442\u0438 NG \u0441 \u0444\u0443\u043d\u043a\u0446\u0438\u044f\u043c\u0438 Mesh-\u0441\u0438\u0441\u0442\u0435\u043c, \u0431\u0443\u0434\u0443\u0442 \u044d\u043a\u043e\u0441\u0438\u0441\u0442\u0435\u043c\u043e\u0439 \u0418\u043d\u0434\u0443\u0441\u0442\u0440\u0438\u0438 4.0. \u041e\u0431\u043e\u0441\u043d\u043e\u0432\u044b\u0432\u0430\u0435\u0442\u0441\u044f \u0432\u044b\u0431\u043e\u0440 \u0431\u0430\u0437\u043e\u0432\u043e\u0439 \u043c\u043e\u0434\u0435\u043b\u0438 \u0441\u0435\u0442\u0438 NG \u0438 Mesh-\u0441\u0438\u0441\u0442\u0435\u043c. \u041f\u0440\u0435\u0434\u043b\u0430\u0433\u0430\u0435\u0442\u0441\u044f \u043c\u0435\u0442\u043e\u0434\u0438\u043a\u0430 \u0440\u0430\u0441\u0447\u0451\u0442\u0430, \u043e\u0446\u0435\u043d\u043a\u0438 \u0438 \u0432\u044b\u0431\u043e\u0440\u0430 \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u043e\u0432 Mesh-\u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0434\u043e\u0441\u0442\u0443\u043f\u0430 \u0434\u043b\u044f \u0441\u0435\u0442\u0438 NG. \u0412 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 \u043c\u0435\u0442\u0440\u0438\u043a\u0438 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430 Mesh-\u0441\u0438\u0441\u0442\u0435\u043c \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0430 \u0432\u0440\u0435\u043c\u0435\u043d\u043d\u0430\u044f \u0437\u0430\u0434\u0435\u0440\u0436\u043a\u0430 \u043f\u0440\u0438 \u043f\u0435\u0440\u0435\u0434\u0430\u0447\u0435 \u0434\u0430\u043d\u043d\u044b\u0445. \u0412\u044b\u0431\u0440\u0430\u043d\u0430 \u043c\u043e\u0434\u0435\u043b\u044c \u041c/\u041c/m \u043a\u043b\u0430\u0441\u0442\u0435\u0440\u0430 \u0431\u0430\u0437\u043e\u0432\u044b\u0445 \u0441\u0442\u0430\u043d\u0446\u0438\u0439 \u0434\u043b\u044f \u0441\u0435\u0442\u0435\u0439 NG. \u041d\u0430 \u043e\u0441\u043d\u043e\u0432\u0435 \u043c\u043e\u0434\u0435\u043b\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0430\u043d\u0430 \u043c\u0435\u0442\u043e\u0434\u0438\u043a\u0430 \u0440\u0430\u0441\u0447\u0435\u0442\u0430 \u0437\u0430\u0434\u0435\u0440\u0436\u0435\u043a \u0438 \u044d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u0438 Mesh \u0441\u0438\u0441\u0442\u0435\u043c \u0432 \u0441\u0435\u0442\u044f\u0445 NG \u043a\u0430\u043a \u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u044f \u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u0438 \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u0438\u044f \u043a \u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u043c \u0437\u0430\u0434\u0435\u0440\u0436\u043a\u0430\u043c \u0441\u0435\u0442\u0438. \u0412 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u043c\u0435\u0442\u0430 \u043c\u043e\u0434\u0435\u043b\u0438 \u0441\u0435\u0442\u0435\u0439 NG \u043c\u043e\u0436\u0435\u0442 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c\u0441\u044f \u0442\u0435\u043e\u0440\u0438\u044f \u041f\u043e\u043b\u0443\u043a\u043e\u043b\u0435\u0446.",
+    "authors": [
+      "\u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440 \u0428\u0438\u0440\u043e\u043a\u043e\u0432"
+    ]
+  },
+  {
+    "id": 1437,
+    "title": "\u0427\u0438\u0441\u043b\u0435\u043d\u043d\u043e\u0435 \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0435 \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u0438 \u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0438 RFID-\u043c\u0435\u0442\u043a\u0438 \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e RFID-\u0441\u0447\u0438\u0442\u044b\u0432\u0430\u0442\u0435\u043b\u044f, \u0440\u0430\u0437\u043c\u0435\u0449\u0435\u043d\u043d\u043e\u0433\u043e \u043d\u0430 \u0411\u041f\u041b\u0410",
+    "abstract": "\u0421\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0435 \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u0435 \u0431\u0435\u0441\u043f\u0438\u043b\u043e\u0442\u043d\u044b\u0445 \u043b\u0435\u0442\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u0430\u043f\u043f\u0430\u0440\u0430\u0442\u043e\u0432 (\u0411\u041f\u041b\u0410) \u043e\u0442\u043a\u0440\u044b\u0432\u0430\u0435\u0442 \u0431\u043e\u043b\u044c\u0448\u0438\u0435 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0438 \u0434\u043b\u044f \u0438\u0445 \u043f\u0440\u0438\u043c\u0435\u043d\u0435\u043d\u0438\u044f \u0432 \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u044b\u0445 \u043e\u0431\u043b\u0430\u0441\u0442\u044f\u0445 \u043f\u0440\u043e\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0438 \u0445\u043e\u0437\u044f\u0439\u0441\u0442\u0432\u0430. \u0412 \u0434\u0430\u043d\u043d\u043e\u0439 \u0441\u0442\u0430\u0442\u044c\u0435 \u0438\u0441\u0441\u043b\u0435\u0434\u0443\u0435\u0442\u0441\u044f \u0441\u043e\u0432\u043c\u0435\u0441\u0442\u043d\u043e\u0435 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0438 \u0440\u0430\u0434\u0438\u043e\u0447\u0430\u0441\u0442\u043e\u0442\u043d\u043e\u0439 \u0438\u0434\u0435\u043d\u0442\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0438 (RFID) \u0438 \u0411\u041f\u041b\u0410, \u0430 \u0438\u043c\u0435\u043d\u043d\u043e \u0440\u0430\u0441\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u0441\u0447\u0438\u0442\u044b\u0432\u0430\u043d\u0438\u0435 \u043f\u0430\u0441\u0441\u0438\u0432\u043d\u044b\u0445 RFID-\u043c\u0435\u0442\u043e\u043a \u0441\u043e \u0441\u0447\u0438\u0442\u044b\u0432\u0430\u0442\u0435\u043b\u044f, \u0437\u0430\u043a\u0440\u0435\u043f\u043b\u0451\u043d\u043d\u043e\u0433\u043e \u043d\u0430 \u0411\u041f\u041b\u0410. \u0414\u043b\u044f \u044d\u0442\u043e\u0433\u043e \u0431\u044b\u043b\u0430 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0430\u043d\u0430 \u043c\u043e\u0434\u0435\u043b\u044c \u043a\u0430\u043d\u0430\u043b\u0430 \u0441\u0432\u044f\u0437\u0438 \u043c\u0435\u0436\u0434\u0443 RFID-\u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430\u043c\u0438, \u0430 \u0442\u0430\u043a\u0436\u0435 \u043f\u0440\u043e\u0432\u0435\u0434\u0435\u043d\u044b \u0447\u0438\u0441\u043b\u0435\u043d\u043d\u044b\u0435 \u044d\u043a\u0441\u043f\u0435\u0440\u0438\u043c\u0435\u043d\u0442\u044b \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u0434\u0438\u0441\u043a\u0440\u0435\u0442\u043d\u043e-\u0441\u043e\u0431\u044b\u0442\u0438\u0439\u043d\u043e\u0433\u043e \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f. \u0411\u044b\u043b\u0430 \u0432\u044b\u0447\u0438\u0441\u043b\u0435\u043d\u0430 \u043e\u0446\u0435\u043d\u043a\u0430 \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u0438 \u0443\u0441\u043f\u0435\u0448\u043d\u043e\u0433\u043e \u043e\u0431\u043c\u0435\u043d\u0430 \u0434\u0430\u043d\u043d\u044b\u043c\u0438 \u043c\u0435\u0436\u0434\u0443 \u0441\u0447\u0438\u0442\u044b\u0432\u0430\u0442\u0435\u043b\u0435\u043c \u0438 \u043c\u0435\u0442\u043a\u0430\u043c\u0438 \u043f\u0440\u0438 \u0440\u0430\u0437\u043d\u044b\u0445 \u0432\u0445\u043e\u0434\u043d\u044b\u0445 \u0434\u0430\u043d\u043d\u044b\u0445: \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u043e\u0432 \u043f\u0440\u043e\u0442\u043e\u043a\u043e\u043b\u0430 RFID, \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u044f \u043e\u043a\u0440\u0443\u0436\u0430\u044e\u0449\u0435\u0439 \u0441\u0440\u0435\u0434\u044b, \u0440\u0435\u0436\u0438\u043c\u0430 \u043f\u043e\u043b\u0451\u0442\u0430 \u0411\u041f\u041b\u0410 \u0438 \u0442. \u043f. \u041f\u043e\u043a\u0430\u0437\u0430\u043d\u043e, \u0447\u0442\u043e \u043f\u0440\u0438 \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0451\u043d\u043d\u044b\u0445 \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430\u0445 RFID-\u0441\u0447\u0438\u0442\u044b\u0432\u0430\u0442\u0435\u043b\u044f \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0435 \u0434\u0430\u043d\u043d\u044b\u0445 \u043e\u0442 \u043c\u0435\u0442\u043a\u0438 \u0441 \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u044c\u044e \u0441\u0432\u044b\u0448\u0435 0,95 \u043f\u0440\u0438 \u0441\u043a\u043e\u0440\u043e\u0441\u0442\u0438 \u043f\u043e\u043b\u0435\u0442\u0430 \u0434\u043e 30 \u043a\u043c/\u0447.",
+    "authors": [
+      "Vilmen Abramian",
+      "Andrey Larionov"
+    ]
+  },
+  {
+    "id": 1202,
+    "title": "\u0422\u0435\u043e\u0440\u0438\u044f \u0438 \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0430 \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044f \u0443\u0440\u043e\u0432\u043d\u044f \u043a\u0440\u0438\u0442\u0438\u0447\u043d\u043e\u0441\u0442\u0438 \u0438\u043d\u0446\u0438\u0434\u0435\u043d\u0442\u043e\u0432 \u0432 \u0446\u0438\u0444\u0440\u043e\u0432\u044b\u0445 \u0438\u043d\u0444\u0440\u0430\u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0430\u0445",
+    "abstract": "\u0412 \u0441\u0442\u0430\u0442\u044c\u0435 \u0440\u0430\u0441\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u044e\u0442\u0441\u044f \u043d\u0435\u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043f\u0440\u0438\u043a\u043b\u0430\u0434\u043d\u044b\u0435 \u0430\u0441\u043f\u0435\u043a\u0442\u044b \u043c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433\u0430 \u0438 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0446\u0438\u0444\u0440\u043e\u0432\u044b\u0445 \u0438\u043d\u0444\u0440\u0430\u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440 \u0441 \u0430\u043a\u0446\u0435\u043d\u0442\u043e\u043c \u043d\u0430 \u0442\u0440\u0443\u0434\u043d\u043e\u0441\u0442\u044f\u0445, \u0432\u043e\u0437\u043d\u0438\u043a\u0430\u044e\u0449\u0438\u0445 \u043f\u0440\u0438 \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u0438 \u0443\u0440\u043e\u0432\u043d\u044f \u043a\u0440\u0438\u0442\u0438\u0447\u043d\u043e\u0441\u0442\u0438 \u0441\u043e\u0431\u044b\u0442\u0438\u0439 (\u0438\u043d\u0446\u0438\u0434\u0435\u043d\u0442\u043e\u0432). \u0412\u044b\u0434\u0435\u043b\u044f\u044e\u0442\u0441\u044f \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438 \u0438 \u043c\u0435\u0445\u0430\u043d\u0438\u0437\u043c\u044b \u043f\u043e\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f \u043e\u0442 \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u043e\u0432 \u0438\u043d\u0444\u0440\u0430\u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u044b \u0432 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u043c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433\u0430 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0439 (\u043f\u0435\u0440\u0432\u0438\u0447\u043d\u044b\u0445 \u0441\u043e\u0431\u044b\u0442\u0438\u0439), \u043c\u0435\u0442\u043e\u0434\u044b \u0438\u0445 \u043a\u043b\u0430\u0441\u0441\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0438 \u0438 \u0444\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u0432\u0442\u043e\u0440\u0438\u0447\u043d\u044b\u0445 \u0441\u043e\u0431\u044b\u0442\u0438\u0439 (\u0438\u043d\u0446\u0438\u0434\u0435\u043d\u0442\u043e\u0432), \u0430 \u0442\u0430\u043a\u0436\u0435 \u043e\u0446\u0435\u043d\u043a\u0438 \u0443\u0440\u043e\u0432\u043d\u044f \u043a\u0440\u0438\u0442\u0438\u0447\u043d\u043e\u0441\u0442\u0438. \u041a\u0440\u0430\u0442\u043a\u043e \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u043e\u0439 \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u044b \u043c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433\u0430 \u0438 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \"\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u041f\u0443\u043b\u044c\u0442\", \u043e\u0431\u0441\u0443\u0436\u0434\u0430\u044e\u0442\u0441\u044f \u043f\u0440\u0438\u043d\u0446\u0438\u043f\u044b \u0440\u0430\u0431\u043e\u0442\u044b \u0441 \u0441\u043e\u0431\u044b\u0442\u0438\u044f\u043c\u0438 \u0438 \u0438\u043d\u0446\u0438\u0434\u0435\u043d\u0442\u0430\u043c\u0438, \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u044b\u0435 \u043c\u0435\u0442\u043e\u0434\u044b \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044f \u0443\u0440\u043e\u0432\u043d\u044f \u043a\u0440\u0438\u0442\u0438\u0447\u043d\u043e\u0441\u0442\u0438.",
+    "authors": [
+      "Konstantin Mikhailov",
+      "Alexey Abramov"
+    ]
+  },
+  {
+    "id": 1635,
+    "title": "A First-Priority Set of Telepresence Services and a Model Network for Research and Education",
+    "abstract": "A first-priority set of telepresence services is proposed, and the delay requirements and fault probabilities for these services are defined. The end-to-end latency and reliability requirements are derived from analysis of ITU-T, 3GPP, ETSI standards and recommendations. The characteristics of a next-generation model network for research and education in the field of telepresence services\r\nare discussed. The model network is based on a DWDM core, a variety of server equipment, holographic fans, 3D cameras and projectors, avatar robots and multifunctional robots, and augmented reality terminal devices. The results of the first tests on the model network are presented.",
+    "authors": [
+      "Andrey Koucheryavy",
+      "Maria Makolkina",
+      "Alexander Paramonov",
+      "Anastasia Vybornova",
+      "Ammar Muthanna",
+      "Sergey Vladimirov",
+      "Anastasia Marochkina"
+    ]
+  },
+  {
+    "id": 1513,
+    "title": "Optical Multi-Carrier Generation using Nested Electro-Absorption Modulators",
+    "abstract": "In this paper, we present and quantitatively show a novel technique for the\r\ncreation of an optically multi-carrier that is founded upon single and nested\r\nelectro-absorption modulators (EAMs). These setups include single and four\r\ncascaded EAMs, and a radio-frequency (RF) signal. These stacked EAMs are\r\ntriggered by a radio frequency signal that has various frequencies in each EAM.\r\nWhere the EAM1, EAM2, EAM3,and EAM4 are driven by the RF signal with\r\nthe frequency of ( fe, fe/2, fe/4, and fe/8) GHz, respectively. The MATLAB\r\nprogram is used to develop and model the computational equations of the\r\ndeveloped models, as well as to simulate the structures. We demonstrate that\r\nperhaps the amount of spectral lines is precisely dependent on the magnitude of\r\nthe RF input signal to the EAM in our simulations. Additionally, the number\r\nof optical lines varies linearly with EAMs number. Furthermore, the number of\r\noptical lines that have a spectral flatness of 1dB also increases with increasing\r\nthe number of EAMs",
+    "authors": [
+      "Yousif Hammadi",
+      "Omar Mahmood",
+      "Mohammed muthanna"
+    ]
+  },
+  {
+    "id": 1531,
+    "title": "Code Division Based on M-sequences and Its Optimization",
+    "abstract": "The work contains a description of methods for creating orthogonal constructions based on recurrent sequences of maximum length. These structures are formed when the signal spectrum is spread by direct sequences and provide signal densification, as well as code division of channels. At the same time, an effective way of optimizing orthogonal structures is proposed, which should increase the energy efficiency of the signal.",
+    "authors": [
+      "Dmitry Kukunin",
+      "Aleksandr Berezkin",
+      "Ruslan Kirichek"
+    ]
+  },
+  {
+    "id": 1532,
+    "title": "Efficient data coding methods based on neural networks",
+    "abstract": "This article discusses a neural network-based compression algorithm using noise-correcting codes. The use of this algorithm has a number of advantages, on the one hand, the noise-resistant code allows to get rid of potentially high overheads provoked by the use of a neural network, lowering the required value of model accuracy to the value determined by the correctability of the used code. On the other hand, a trained neural network allows data compression without prior transformations.",
+    "authors": [
+      "Aleksandr Berezkin",
+      "Dmitry Kukunin",
+      "Alexey Slepnev",
+      "Ruslan Kirichek"
+    ]
+  },
+  {
+    "id": 1238,
+    "title": "Characterizing the Effects of Base Station Variable Capacity on 5G Network Slicing Performance",
+    "abstract": "Network slicing is a technique based on virtualization of base station resources that allows to divide the network into logical parts (slices). %This opens up the possibility for third parties to act as virtual operators in the provider's infrastructure.\r\nIn 5G, traffic with very heterogeneous transmission requirements is expected, which will need to be transmitted efficiently over a common infrastructure on the millimeter waves, which is quite sensitive to blockages. In this work, we focus on to such an aspect of network modeling as the abstraction of the base station resource, which depends on the communication channel state. Quite often, it is presented by researchers in the form of a constant value of the data transfer rate in some units. However, in reality, the behavior of the channel is complex and this value is changing. \r\nWe explore our resource allocation scheme among slices through simulation and characterize the effect of the variable capacity of the base station on the stability of the network slicing technology. We conclude that the variable capacity requires a careful choice of the re-slicing frequency. This can be achieved by invoking re-slicing in in timely manner, upon arrival of sessions, or by choosing an appropriate interval.",
+    "authors": [
+      "Nikita Polyakov",
+      "Anna Platonova"
+    ]
+  },
+  {
+    "id": 1263,
+    "title": "Traffic arrival model for millimeter wave 5G NR systems",
+    "abstract": "The introduction of integrated access and backhaul (IAB) technology in beyond 5G systems will result in multiple wireless backhaul links between the user equipment (UE) and the base station (BS). This configuration motivates the research into traffic at the packet level to evaluate the quality of service (QoS) provided to users. At the same time, specifics of directional communications in millimeter wave (mmWave) and terahertz (THz) frequencies with frequent outages caused by blockage and micromobility lead to periods of silence and further rate compensation. In this paper, we consider the traffic as the process of receiving requirements for resource blocks, i.e. the number of resource blocks required to allocate on the BS to provide a constant bit rate at the UE. We propose a Markov model for the specified traffic system that explicitly accounts for such mmWave/THz-specific features as micromobility and blockage effects. Our numerical results demonstrate that the Poisson arrival process assumption underestimates the actual queuing delay at BS by approximately 10%.",
+    "authors": [
+      "Emil Khayrov",
+      "Vladislav Prosvirov",
+      "Anna Platonova"
+    ]
+  },
+  {
+    "id": 1266,
+    "title": "A Model for 5G Millimeter Wave Service Rate Abstraction",
+    "abstract": "An accurate channel abstraction is an important part of solving resource allocation problems in 5G networks.The purpose of this work is to present a channel abstraction model that takes into account changes in total cell capacity over time and does not require complex simulation. We analyze the cell capacity, taking into account the 3GPP standards. Based on the obtained values, we propose a model based on the first-order autoregression method. The numerical results show that the suggested method provides an accurate approximation of the total cell rate. The obtained results can be used in applied research in 5G wireless networks.",
+    "authors": [
+      "Vladislav Prosvirov",
+      "Emil Khayrov"
+    ]
+  },
+  {
+    "id": 1292,
+    "title": "Analyzing Impact of Path Loss Models on eMBB Bit Rate Degradation under Priority URLLC Transmission in 5G Network",
+    "abstract": "One of the challenging tasks in 5G networks is to organize a joint URLLC (ultra-reliable and low-latency communication) and eMBB (enhanced mobile broadband) transmission in such a way that provides the priority to URLLC connections. The eMBB users suffer quality of service degradation, primarily bit rate degradation. In the paper, we provide a queuing model for analyzing this effect depending on several path loss models, formalize and numerically solve the problem of maximizing the average eMBB bit rate over the set of bit rate levels under the interruption probability constraint.",
+    "authors": [
+      "Anastasia Ageeva",
+      "Elena Makeeva",
+      "Irina Kochetkova",
+      "Andrey Gorshenin"
+    ]
+  },
+  {
+    "id": 1297,
+    "title": "The estimation of microchip testing process duration based on extended fault injection method",
+    "abstract": "The need of adding some kind of fault tolerance to modern microchip design is of great importance today, both for aerospace and sea level applications. It is mostly explained by the increased sensitivity to negative environmental factors due to technology shrinks and because of the need of chip yield increasing in the presence of manufacturing defects. This article discusses an algorithm for assessing microchip design fault tolerance, based on the extended fault injection method.",
+    "authors": [
+      "Oleg Brekhov",
+      "Alex Klimenko"
+    ]
+  },
+  {
+    "id": 1199,
+    "title": "Multipath redundant transmission with traffic heterogeneity in terms of the criticality of network delays",
+    "abstract": "The possibilities of increasing the probability of timely delivery of packets of heterogeneous traffic to the addressee are investigated as a result of setting the multiplicity of packet redundancy depending on their criticality to delays in the queues of switching nodes that make up the delivery path of a replica packet to the addressee.  \r\nFor multipath redundant transmission of packets of heterogeneous traffic by acceptable packet delays in the network, an analytical model is proposed for estimating the probability of timely delivery of at least one of the replicas of packets transmitted to the addressee The efficiency of destroying expired packets in intermediate nodes that make up data transmission paths is shown",
+    "authors": [
+      "Vladimir Bogatyrev",
+      "Stanislav Bogatyrev",
+      "Anatoly Bogatyrev"
+    ]
+  },
+  {
+    "id": 1205,
+    "title": "Cluster With Functional Heterogeneity Of Nodes With Requests Of Different Criticality to Delays",
+    "abstract": "Cluster systems combining nodes that are heterogeneous in functionality are considered. The probability of timely execution of a flow of requests heterogeneous in functionality, differing in the allowable waiting time in queues, is estimated. The evaluation is presented for the functional configuration options of cluster nodes. The area of efficiency of reservation of latency-critical requests is determined depending on the intensity of the total input stream.",
+    "authors": [
+      "Vladimir Bogatyrev",
+      "Stanislav Bogatyrev",
+      "Anatoly Bogatyrev"
+    ]
+  },
+  {
+    "id": 1193,
+    "title": "The timeliness of the reserved service in the cluster with the regulation of the time of destruction of overdue requests in the node queues",
+    "abstract": "With the increasing complexity of distributed control tasks based on their intellectualization, there are problems of insufficient time and computing resources for functioning in real time. In this regard, there is a need to develop methods for organizing distributed real-time computer systems, based on the consolidation of distributed computing resources with their integration into clusters. The possibilities of increasing the probability of timely servicing of waiting-critical requests in the cluster as a result of query replication and controlling the time of destruction of potentially expired replicas in node queues are investigated. The cluster is represented as a group of queuing systems with infinite queues with a limited average waiting time. The effectiveness of the reserved service of a real-time request is determined by the probability of executing at least one of the generated copies of the request in the maximum allowable time without losing it due to errors and waiting time limits in the queues of cluster nodes. It is shown that there is an optimal multiplicity of query replication with a significant influence of the choice of restrictions on the waiting time for requests in queues before they are destroyed.",
+    "authors": [
+      "Vladimir Bogatyrev",
+      "Stanislav Bogatyrev",
+      "Anatoly Bogatyrev"
+    ]
+  },
+  {
+    "id": 1171,
+    "title": "Analysis and formalization of requirements of URLLC, mMTC, eMBB scenarios for the physical and data link layers of a 5G mobile transport network",
+    "abstract": "\u041f\u043e\u043a\u0430\u0437\u0430\u043d\u0430 \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u043e\u0441\u0442\u044c \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0435\u0432 \u0434\u043b\u044f \u0441\u0435\u0442\u0435\u0439 \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u043e\u0439 \u0441\u0432\u044f\u0437\u0438 5G. \u0420\u0430\u0441\u043a\u0440\u044b\u0442\u0430 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0430 \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0438 \u043a\u0430\u043d\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0443\u0440\u043e\u0432\u043d\u0435\u0439 \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u0439 \u0441\u0435\u0442\u0438 5G. \u041f\u0440\u043e\u0432\u0435\u0434\u0451\u043d \u0430\u043d\u0430\u043b\u0438\u0437 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u0439 \u0441\u0446\u0435\u043d\u0430\u0440\u0438\u0435\u0432 eMMB, URLLC, mMTC \u043a \u0444\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u043e\u043c\u0443 \u0438 \u043a\u0430\u043d\u0430\u043b\u044c\u043d\u043e\u043c\u0443 \u0443\u0440\u043e\u0432\u043d\u044f\u043c \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u043d\u043e\u0439 \u0441\u0435\u0442\u0438, \u0438\u0445 \u043e\u0440\u0438\u0435\u043d\u0442\u0438\u0440\u043e\u0432\u043e\u0447\u043d\u0430\u044f \u0447\u0438\u0441\u043b\u0435\u043d\u043d\u0430\u044f \u043e\u0446\u0435\u043d\u043a\u0430. \u0412\u044b\u044f\u0432\u043b\u0435\u043d\u044b \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f, \u043e\u043a\u0430\u0437\u044b\u0432\u0430\u044e\u0449\u0438\u0435 \u0434\u043e\u043c\u0438\u043d\u0430\u043d\u0442\u043d\u043e\u0435 \u0432\u043b\u0438\u044f\u043d\u0438\u0435 \u043f\u0440\u0438 \u043f\u043e\u0441\u0442\u0440\u043e\u0435\u043d\u0438\u0438 \u0441\u0435\u0442\u0438, \u0432\u0432\u0435\u0434\u0435\u043d\u0430 \u0438\u0445 \u0444\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f.",
+    "authors": [
+      "Dmitrii Aminev",
+      "Dmitry Kozyrev",
+      "Evgenia Bogdanova"
+    ]
+  },
+  {
+    "id": 1200,
+    "title": "IIoT information processing model for transfer learning with data quality management",
+    "abstract": "Generally, the use of transfer learning techniques is challenging when the testing data and the training data are not collected into a single enterprise data storage and the data items are not linked explicitly one to another, as happens with the sensor data flows in the sensor network. The objective of this paper is to propose a transfer learning service delivery model based on the collaborative information processing with consolidation data sets and data quality management. In order to achieve objective we suppose model with an ontology-based rules applying to check quality of an enterprise database which is used in Industrial internet of things platform for machine learning service support.",
+    "authors": [
+      "Alexander Grebeshkov"
+    ]
+  },
+  {
+    "id": 1184,
+    "title": "Numerical Analysis  of Full-Available Group of Servers with  Dependence of Call Repetition on the Type of Call Blocking",
+    "abstract": "A mathematical model of a fully accessible communication system has been constructed and investigated, taking into account the repetition of a call after the preliminary service stage and due to the busy service devices. The model also assumes that the user's stay in the call repetition state is limited by a random variable that has an exponential distribution, which determines the aging time of the transmitted information. It is shown that the exact values of the stationary characteristics of the constructed model can be calculated by an efficient recursive algorithm\r\ndeveloped for the model where the user repeats the call only because the service devices are busy.\r\nThe constructed model and methods of its analysis can be used for\r\n evaluation of  the positive effect that the use of the preliminary service like chatbot  creates when planning the required number of call center operators.\r\n   Numerical examples are given to illustrate the practical use of the results obtained.",
+    "authors": [
+      "Sergey Stepanov",
+      "Mikhail Stepanov",
+      "Fedor Kroshin"
+    ]
+  },
+  {
+    "id": 1235,
+    "title": "Network traffic preparation for its states analysis  by the aggregated data packets partial correlations method",
+    "abstract": "The aggregation procedures network traffic data packets  for the analysis of its states by the partial correlations method  of aggregated data packets are described.  The  headers of network traffic data packets  parameters transformation to time series of its aggregated data packets are presented. The novelty of the approach lies in the fact that the streams of network traffic aggregated data packets are formed considering bit flags from the TCP header of the TCP/IP data transmission protocol. The approach has shown high efficiency for identifying various types of DDoS attacks.",
+    "authors": [
+      "Dmitrii Nikol'skii",
+      "Andrei Krasnov"
+    ]
+  },
+  {
+    "id": 1241,
+    "title": "On the analysis of a resource loss system with the waiting buffer",
+    "abstract": "In this paper we consider a multi-server model in terms of a resource loss system with the waiting buffer and the single type of resources. A customer accepted for servicing occupies a random amount of resources with described distribution functions. Based on the assumptions of a Poisson arrival process and exponential service times, we analytically find the the system of equilibrium equations, solving which we get the stationary probabilities, loss probability, the average waiting time and the average number of customers.",
+    "authors": [
+      "Anastasia Daraseliya",
+      "Eduard Sopin"
+    ]
+  },
+  {
+    "id": 1170,
+    "title": "Automatic detection of anomalies in electrocardiograms with generative deep learning",
+    "abstract": "A model for detecting anomalies in electrocardiograms based on various models of autoencoders proposed. Computer experiments on its application in the task of detecting anomalies in electrocardiograms have shown higher efficiency in comparison with other unsupervised machine learning models.",
+    "authors": [
+      "Eugene Yu. Shchetinin",
+      "Anastasia Glushkova",
+      "Leonid Sevastianov"
+    ]
+  },
+  {
+    "id": 1183,
+    "title": "Towards the effectiveness of the adversarial attacks on robustness of medical images recognition by deep neural networks",
+    "abstract": "The problems of robustness of deep neural networks to adversarial attacks are investigated. The aim of the work is to study the effectiveness of the impact of adversarial attacks on the type of recognized biomedical images and the values of the control parameters of the algorithms for generating their attacking versions. Experimental studies were carried out on the example of solving typical problems of medical diagnostics using deep neural networks VGG16, EfficientNetB2, DenseNet121, Xception as well as data containing chest X-rays and Brain tumor MRI scans images. Neural networks trained for classification using generative deep learning turned out to be more robust to adversarial attacks than networks trained for classification by transfer learning methods.",
+    "authors": [
+      "Eugene Yu. Shchetinin",
+      "Anastasia Glushkova",
+      "Blinkov Yury"
+    ]
+  },
+  {
+    "id": 1187,
+    "title": "Methodology for a comprehensive assessment of the quality of telecommunication services of transport networks using SDN/NFV technologies",
+    "abstract": "Methodology for a comprehensive assessment of the quality of telecommunication services of transport networks using SDN / NFV technology has been developed. This methodology can be the basis for selection the structure and number of SDN controllers and their optimal location in the communication network based on SDN/NFV, calculation reliability indicators, obtainment loss probabilities of streams  and control messages as well as time delays for processing streams in SDN telecommunication equipment. Proposals were also given on balancing the traffic load on SDN controllers of the communication network.",
+    "authors": [
+      "Igor Buzhin",
+      "Maxim Bessonov",
+      "Yuriy Mironov",
+      "Antonova Veronika"
+    ]
+  },
+  {
+    "id": 1189,
+    "title": "Performance evaluation of MU-MIMO precoding with user selection on 5G-NR channel model",
+    "abstract": "In this paper we study the performance of the downlink multiuser MIMO system based on Zero Forcing beamforming using the user selection algorithms. The sum-rate performance in MU-MIMO system depends on real propagation condition and for spatially correlated channel the appropriate user selection algorithms are used to select the user subset with low correlation between channel vectors. Two user selection algorithm - semiorthogonal user selection and greedy user selection are numerically evaluated based on the open source MIMO channel model and Least Squares channel estimation. The sum rate performance depending on number of users and SNR are presented.",
+    "authors": [
+      "Aleksander Kalachikov"
+    ]
+  },
+  {
+    "id": 1746,
+    "title": "Analysis of Power Management in a Tethered High Altitude Platform using MAP/PH[3]/1 Retrial Queueing Model",
+    "abstract": "Due to the increasing demand of the tethered high altitude platform (HAP) systems, it is imperative to assess their power consumption along with their deployment. This study considers the power management of lithium-ion batteries based tethered HAP systems for wireless communications service provisioning. This article discusses a novel model based on a multi-dimensional  Markov process applied for the evaluation of the power consumption characteristics of a tethered HAP system. The proposed model takes into account the increment in the load on the functioning of system after the consumption of power in batteries. The underlying study introduces functioning of the system in three modes along with the retrial phenomenon. The arrival of packets follows Markovian arrival process ($M\\!A\\!P$) and the service time is phase-type ($P\\!H$) distributed with distinct parameters in three different modes. The stationary distributions and stability of the system have been derived using the matrix-geometric method. Further, by deriving key system performance measures, numerical examples have been illustrated.",
+    "authors": [
+      "Vladimir Vishnevsky"
+    ]
+  },
+  {
+    "id": 1535,
+    "title": "On the distribution of the number of consecutively lost customers in the BMAP/PH/1/N system",
+    "abstract": "In this paper, we  propose method for calculating the distribution of the number of consecutively lost customers in the single-server queueing system with a finite buffer, batch Markovian arrival process and phase type distribution of service time.\r\nThe most well-known and important performance measure  of finite capacity systems is the probability of losing an arbitrary customer. Loss probability is the subject of research in the literature under various assumptions about the nature of the input flow  and the distribution of  service time. At the same time, this characteristic may be not always  a good estimate of the quality of service in queuing systems that arise in the mathematical modeling of telecommunication networks. More indicative in this case is the probability of losing several customers in a row caused by an overflowing buffer. We propose explicit formulas that characterize the distribution and  mathematical expectation of the number of  consecutively lost customers  in the system under consideration.",
+    "authors": [
+      "Valentina Klimenok",
+      "Alexander Dudin"
+    ]
+  },
+  {
+    "id": 1478,
+    "title": "Retrial Queuing System with Limited Processor Sharing Discipline",
+    "abstract": "We consider a retrial queueing system with limited processor sharing discipline.\r\nThe arrival flow is defined by a Markovian arrival process. The distinguishing\r\nfeature of the model is that the customers on service can interfere each\r\nother and the effective bandwidth of the server decreases with the increase in\r\nthe number of servicing customers. The process of the system states is defined\r\nas level-dependent Markov chain. The generator of this chain is derived. The\r\nmain performance measures of the system are obtained.",
+    "authors": [
+      "Alexander Dudin",
+      "Sergei Dudin",
+      "Olga Dudina"
+    ]
+  },
+  {
+    "id": 1268,
+    "title": "Stability of Some Applied Probability Models",
+    "abstract": "In order to study a real process or system researcher has to choose an appropriate mathematical model.\r\nUsually one considers input-output models dealing with such probability theory applications as\r\ncommunication, reliability, queueing, inventory, finance, insurance and others.\r\nModern period in actuarial sciences is characterized by consideration of complex systems,\r\ninterplay of cost and reliability approaches and wide use of computers, therefore it is desirable to treat\r\ndiscrete-time models. They can give approximation to corresponding continuous-time ones. Moreover,\r\nin some cases they provide a better description of a real-life situation. So, we consider two discrete-time\r\nmodels and investigate their optimal performance and stability.",
+    "authors": [
+      "Ekaterina Bulinskaya"
+    ]
+  },
+  {
+    "id": 1185,
+    "title": "Probability density of the interval duration between events in the generalized MAP with its incomplete observability",
+    "abstract": "We consider a generalized MAP (Markovian Arrival Process) with an arbitrary number of states under conditions of its incomplete observability (in the presence of unextendable dead time of fixed duration). An explicit form of the probability density of the values of the interval duration between the moments of the events occurrence for a two-state flow is found.",
+    "authors": [
+      "Anastasiya Keba",
+      "\u041b\u044e\u0434\u043c\u0438\u043b\u0430 \u041d\u0435\u0436\u0435\u043b\u044c\u0441\u043a\u0430\u044f"
+    ]
+  },
+  {},
+  {
+    "id": 1258,
+    "title": "Modeling and analysis of the multi-channel queueing system transient behavior for piece-wise constant arrival rates",
+    "abstract": "The problem of analyzing transient mode of multi-channel queueing system with a finite buffer is considered in this paper. The transient mode of multi-channel queueing system characterizes a switching on/off process or system rebooting process. The transitional time is one of the important transient metrics and it is calculated by using proposed approach.  The case of inoperative queueing system is especially relevant at the stage of the first launch of such systems or in the case of a sudden change in the number of incoming applications. That is why in order to avoid any troubles and unforeseen situations, it is necessary to thoroughly examine working capacity of the system depending on the workload.\r\nThe multi-channeled queueing system M|M|n|m with two servicing devices (n=2) and a finite buffer (m=3) has been analyzed in the paper. State probabilities of the queueing system at the arbitrary point of time have been found by means of the matrix method of fundamental solutions on the base of the system of Kolmogorov equations. The loss probability, the throughput in transient mode have been estimated by using proposed approach.",
+    "authors": [
+      "Konstantin Vytovtov",
+      "Elizaveta Barabanova",
+      "Vladimir Vishnevsky"
+    ]
+  },
+  {
+    "id": 1192,
+    "title": "Service system with non-replenish queue",
+    "abstract": "The paper proposes a probabilistic method for an analysis of service system without input flow, but having initial queue of claims. Such situation takes place in an airport, when an express train delivers passengers from the city.  Screening of the arriving passengers is carried out at security checkpoints where a queue of passengers is formed. The queue is not reinforced until the last checked passenger who arrived by train. \r\nConsidered queueing system has many servers and Erlang distribution of the service time. Formulas are derived for calculating the distribution function of a time until all services ending and the average waiting time. Calculations are supported by the developed MathCAD programs.",
+    "authors": [
+      "Alexander Andronov",
+      "Iakov Dalinger",
+      "Nadezda Spiridovska"
+    ]
+  },
+  {
+    "id": 1295,
+    "title": "The Markov Model of the Information Security Protocol Based on the Needham-Schroeder Protocol for One-time Keys",
+    "abstract": "A user-friendly Markov model of procedures for the Needham-Schroeder information security algorithm is developed. To implement the development, auxiliary system models of three asynchronous execution algorithms are used, one of which considers systems of processing-synchronous input and processing- asynchro-nous output, while the other considers input-asynchronous processing and synchronous information output. A model of processing-asynchronous input and output is taken as the final model. Finally, the closed model of a three-phase queuing system is given.",
+    "authors": [
+      "Anatoly Yermakov",
+      "Anar Shukmanova",
+      "Timour Paltashev",
+      "Aasso Ziro",
+      "Aisha Mamyrova"
+    ]
+  },
+  {
+    "id": 1296,
+    "title": "Closed Stochastic Network of the Needham-Schroeder model for Oil Pipeline Data Transmission",
+    "abstract": "The article presents a model of a closed stochastic pipeline network. The calculation algorithm\r\nbased on the Needham-Schroeder protocol is derived. The calculation method based on\r\ntwo-phase systems such as AISO, SIAO is derived.",
+    "authors": [
+      "Anatoly Yermakov",
+      "Aisha Mamyrova"
+    ]
+  },
+  {
+    "id": 1186,
+    "title": "Reliability of a Load-Sharing k-out-of-n System Under Decreasing of Components Residual Lifetime",
+    "abstract": "The reliability characteristics of a k-out-of-n system are studied in the case when a failure of one of the system's components leads to increasing the load on others, resulting in their residual lifetimes decreasing. The situation is modeled with the help of changing the components and the system hazard rate function. The reliability function and other reliability characteristics of such a system can be calculated with the proposed approach.",
+    "authors": [
+      "Vladimir Rykov",
+      "Nika Ivanova"
+    ]
+  },
+  {
+    "id": 1293,
+    "title": "Reliability Analysis of a k-out-of-n System in Case of Full Repair After Its Failure",
+    "abstract": "The paper focuses on the investigation of a k-out-of-n system in case of full repair after its failure. The reliability analysis, including the calculation of time-dependent and steady-state system characteristics, is considered. It is assumed that components' lifetime is exponentially distributed, and the repair time has an arbitrary distribution. The closed-form representation of system steady-state probabilities in terms of the Laplace transform of components' repair time is shown.",
+    "authors": [
+      "Nika Ivanova"
+    ]
+  },
+  {
+    "id": 1260,
+    "title": "On the reliability estimation of the FBM multi-phase degradation system",
+    "abstract": "The estimation of the reliability  is an important and hard problem, arising in the performance analysis of degradation systems. The required performance measure is usually not analytically available. Hence, one has to rely  in simulation methods. The variance reduction technique is developed to estimate the reliability of the multi-phase degradation model based on fractional Brownian motion (FBM). Numerical experiments are conducted to evaluate the performance of the proposed estimator.",
+    "authors": [
+      "Oleg Lukashenko"
+    ]
+  },
+  {
+    "id": 1203,
+    "title": "Reliability of a redundant computer system, taking into account the features of restoring information of various criticality to loss",
+    "abstract": "A fault-tolerant redundant computer system is considered, including a duplicated computer node with two two-input storage devices connected to it.\r\nA Markov model of a duplicated computer system is proposed, taking into account the physical and subsequent information recovery of memory. Variants of the discipline of information recovery are considered. In the first case, it is assumed that the information being restored is not unique and can be loaded into physically restored memory from some external source. For the second option, information can be restored only based on replicas of information stored in the system. The loss of all replicas of unique data can lead to the inability to restore information and, as a result, to an unrecoverable failure of the computer system. The comparison of the effectiveness of the options was carried out according to the non-stationary readiness coefficient.",
+    "authors": [
+      "Vladimir Bogatyrev",
+      "Anatoly Bogatyrev",
+      "Stanislav Bogatyrev"
+    ]
+  },
+  {
+    "id": 1257,
+    "title": "Comparison of approaches to component reliability allocation for distributed control systems",
+    "abstract": "Various approaches to reliability  allocation of elements are considered. The report describes a mathematical model of the reliability of a distributed control system. The method of statistical modeling is used to determine the parameters of reliability and significance of elements. The comparison of different architectures by the criteria of the significance of the elements and the effectiveness of the application of different Allocation approaches is given.",
+    "authors": [
+      "Aleksandr Moshnikov"
+    ]
+  },
+  {
+    "id": 1229,
+    "title": "Average cost minimization in a multi-server retrial queueing system with a controllable reserve group of servers",
+    "abstract": "The paper deals with a dynamic optimal activation and deactivation of a reserve group of servers in a multi-server retrial queueing system. The repeated attempts to occupy the server from the orbit occur due to a classical retrial discipline, and the activation of reserves requires a random set-up time. The optimal policy minimizes the average cost per unit of time which consists of the holding and usage cost components. The optimal control policy belongs to a class of hysteretic control policies defined by two threshold levels for the orbit size and prescribes the necessity to activate and deactivate a standby reserve group of servers. A dynamic-programming approach for the Markov decision process is used to show that the optimal thresholds depend on the number of busy servers as well. In order to provide a less computationally expensive method for calculating optimal thresholds, explicit heuristic expressions are proposed to guarantee at least a quasi-optimal solution to the optimization problem. Numerical examples confirm the efficiency of the proposed approach.",
+    "authors": [
+      "Dmitry Efrosinin",
+      "Natalia Stepanova"
+    ]
+  },
+  {
+    "id": 1255,
+    "title": "Speed-up simulation for reliability analysis of Wiener degradation process with random failure threshold",
+    "abstract": "This paper proposes an alternative approach to the analysis and modeling of the reliability of degradation systems with rare failures.\r\nWe assume that the degradation measure of the multiphase system is described by the Wiener process and instantaneous failure occurs when the process reaches a given level. Let us consider a model of a multiphase system, where the degree of degradation is described by a Wiener process and an instantaneous failure occurs when the process reaches a given level.\r\nThe failure threshold value can be either a constant or a random variable that takes values \u200b\u200bon the positive semiaxis or on the fixed interval. Evaluation of the failure probability and other characteristics of the system is crucial for optimal control, however, for complex multi-phase systems with multiple failure thresholds, it is often impossible to find an analytical solution. \r\n\r\nFor the process of regenerative degradation, instead of the standard Monte-Carlo procedure, it is proposed to use an accelerated version of the construction of regeneration cycles. The splitting of the Wiener process trajectory occurs at the moment of transition to the next phase of the  degradation. This approach is useful when failures are rare.",
+    "authors": [
+      "Alexandra Borodina"
+    ]
+  },
+  {
+    "id": 1216,
+    "title": "\u041c\u0435\u0442\u043e\u0434 \u0440\u0430\u0441\u0447\u0435\u0442\u0430 \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043a \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f c \u0433\u0438\u0431\u0440\u0438\u0434\u043d\u043e\u0439 \u043f\u043e\u043b\u0438\u0442\u0438\u043a\u043e\u0439 \u043f\u043e\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044f \u0437\u0430\u043f\u0430\u0441\u043e\u0432 \u043e\u0442 \u0434\u0432\u0443\u0445 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u043e\u0432",
+    "abstract": "\u0418\u0437\u0443\u0447\u0430\u0435\u0442\u0441\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f-\u0437\u0430\u043f\u0430\u0441\u0430\u043d\u0438\u044f (\u0421\u041e\u0417) c \u0434\u0432\u0443\u043c\u044f \u0438\u0441\u0442\u043e\u0447\u043d\u0438-\r\n\u043a\u0430\u043c\u0438, \u0432 \u043a\u043e\u0442\u043e\u0440\u044b\u0445 \u0432 \u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u0438 \u043e\u0442 \u0442\u0435\u043a\u0443\u0449\u0435\u0433\u043e \u0443\u0440\u043e\u0432\u043d\u044f \u0437\u0430\u043f\u0430\u0441\u043e\u0432 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442\u0441\u044f\r\n\u0440\u0430\u0437\u043b\u0438\u0447\u043d\u0430\u044f \u043f\u043e\u043b\u0438\u0442\u0438\u043a\u0430 \u043f\u043e\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044f \u0437\u0430\u043f\u0430\u0441\u043e\u0432 (\u041f\u041f\u0417). \u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0443\u0441\u043b\u043e\u0432\u0438\u0435 \u044d\u0440\u0433\u043e\u0434\u0438\u0447-\r\n\u043d\u043e\u0441\u0442\u0438 \u0438\u0441\u0441\u043b\u0435\u0434\u0443\u0435\u043c\u043e\u0439 \u0441\u0438\u0441\u0442\u0435\u043c\u044b, \u0432\u044b\u0447\u0438\u0441\u043b\u044f\u0435\u0442\u0441\u044f \u0435\u0435 \u0441\u0442\u0430\u0446\u0438\u043e\u043d\u0430\u0440\u043d\u043e\u0435 \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u0435 \u0438\r\n\u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d\u044b \u0444\u043e\u0440\u043c\u0443\u043b\u044b \u0434\u043b\u044f \u043d\u0430\u0445\u043e\u0436\u0434\u0435\u043d\u0438\u044f \u0435\u0435 \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043a.",
+    "authors": [
+      "Agassi Melikov",
+      "Ramil Mirzayev"
+    ]
+  },
+  {
+    "id": 1243,
+    "title": "\u041e \u043f\u0435\u0440\u0438\u043e\u0434\u0435 \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u0438 \u0438 \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u0441 \u0440\u0430\u0437\u0434\u0435\u043b\u0435\u043d\u0438\u0435\u043c \u0432\u0440\u0435\u043c\u0435\u043d\u0438   \u0432 \u0441\u043b\u0443\u0447\u0430\u0439\u043d\u043e\u0439 \u0441\u0440\u0435\u0434\u0435",
+    "abstract": "\u0412 \u0440\u0430\u0431\u043e\u0442\u0435 \u0440\u0430\u0441\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u0435 \u043f\u043e\u043d\u044f\u0442\u0438\u044f \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438 \u043a\u0430\u043a \u043f\u0440\u0435\u0434\u0435\u043b\u044c\u043d\u043e\u0435 \u0441\u0440\u0435\u0434\u043d\u0435\u0435  \u0432\u0440\u0435\u043c\u044f \u0430\u043a\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u0438 \u043f\u0440\u0438\u0431\u043e\u0440\u0430. \u041f\u0440\u0438\u0432\u043e\u0434\u044f\u0442\u0441\u044f \u0440\u0430\u0441\u0447\u0435\u0442\u043d\u044b\u0435 \u0444\u043e\u0440\u043c\u0443\u043b\u044b \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044f \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0438  \u043e\u0434\u043d\u043e\u043b\u0438\u043d\u0435\u0439\u043d\u043e\u0439 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0433\u043e \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u0441 \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u044b\u043c\u0438 \u0432\u044b\u0437\u043e\u0432\u0430\u043c\u0438 \u0438 \u0432\u0445\u043e\u0434\u043d\u044b\u043c  \u043f\u043e\u0442\u043e\u043a\u043e\u043c, \u0444\u043e\u0440\u043c\u0438\u0440\u0443\u0435\u043c\u043e\u043c \u0432 \u0441\u043b\u0443\u0447\u0430\u0439\u043d\u043e\u0435 \u0441\u0440\u0435\u0434\u0435 \u0441 \u0434\u0432\u0443\u043c\u044f \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u044f\u043c\u0438. \u041e\u0442 \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u044f \u0441\u0440\u0435\u0434\u044b  \u0437\u0430\u0432\u0438\u0441\u044f\u0442 \u0438\u043d\u0442\u0435\u043d\u0441\u0438\u0432\u043d\u043e\u0441\u0442\u044c \u043f\u043e\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f \u0433\u0440\u0443\u043f\u043f \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u0439 \u0438 \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u0435 \u0440\u0430\u0437\u043c\u0435\u0440\u0430  \u0433\u0440\u0443\u043f\u043f\u044b. \u0422\u0430\u043a\u0430\u044f \u043c\u043e\u0434\u0435\u043b\u044c \u043e\u043f\u0438\u0441\u044b\u0432\u0430\u0435\u0442 \u0434\u0438\u043d\u0430\u043c\u0438\u043a\u0443 \u043e\u0447\u0435\u0440\u0435\u0434\u0438 \u0432 \u0441\u0438\u0441\u0442\u0435\u043c\u0430\u0445 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0438 \u043e\u0434\u043d\u043e\u0440\u043e\u0434\u043d\u043e\u0439  \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u0441 \u0440\u0430\u0437\u0434\u0435\u043b\u0435\u043d\u0438\u0435\u043c \u0432\u0440\u0435\u043c\u0435\u043d\u0438.  \u041f\u0440\u0435\u0434\u043f\u043e\u043b\u0430\u0433\u0430\u0435\u0442\u0441\u044f \u043d\u0430\u043b\u0438\u0447\u0438\u0435 \u0441\u0442\u0430\u0446\u0438\u043e\u043d\u0430\u0440\u043d\u043e\u0433\u043e \u0440\u0435\u0436\u0438\u043c\u0430  \u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u0421\u041c\u041e. \u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u044b\u0435 \u0438 \u0434\u043e\u0441\u0442\u0430\u0442\u043e\u0447\u043d\u044b\u0435 \u0443\u0441\u043b\u043e\u0432\u0438\u044f \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043e\u0432\u0430\u043d\u0438\u044f  \u0441\u0442\u0430\u0446\u0438\u043e\u043d\u0430\u0440\u043d\u043e\u0433\u043e \u0440\u0435\u0436\u0438\u043c\u0430 \u0442\u0430\u043a\u0436\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u044b.",
+    "authors": [
+      "Andrei Zorine"
+    ]
+  },
+  {
+    "id": 1458,
+    "title": "Transient Behaviour of Finite-Source Single-Line Queueing Systems With Jumps of Network Traffic",
+    "abstract": "In this paper, the accurate analytical method for studying\r\nthe transient behavior of finite-source single-line queueing systems with\r\njumps of network traffic is presented. It based on the method of the\r\nprobability translation matrix. The mathematical model allows us to\r\nanalyze the transient mode of Local Area Network when a switch has\r\nbeen turned on or an arrived or serviced rate has been changed. It is\r\nobtained the analytical expressions for the system state probabilities\r\nincluding the expression for the loss probability and the transient time.\r\nThe numerical calculations for the five-state queuing system M/M/1/n\r\nare presented too. The calculation results for the considered particular\r\ncases fully correspond to the well-known analytical and numerical results\r\nfor the system in the stationary mode.",
+    "authors": [
+      "Vladimir Vishnevsky",
+      "Konstantin Vytovtov",
+      "Elizaveta Barabanova",
+      "Georgiy Vytovtov"
+    ]
+  },
+  {
+    "id": 1253,
+    "title": "On asymptotic analysis of quasi-regenerative processes",
+    "abstract": "In queuing theory and related fields, many methods of asymptotic analysis of the behaviour of stochastic processes are based on the analysis of regenerative processes.\r\nHowever, the behaviour of some complex technical systems cannot be described by regenerative processes.\r\n\r\nFor example, the behaviour of one part of some system affects the behaviour of another part of this system, and vice versa.\r\nIn this case, the total process of behaviour of both subsystems is not regenerative.\r\n\r\nHowever, in many technical systems, these non-regenerative processes are close ``in some sense'' to regenerative processes.\r\nHence, its asymptotic behaviour can be studied.",
+    "authors": [
+      "Galina Zverkina"
+    ]
+  },
+  {
+    "id": 1240,
+    "title": "\u041e \u043c\u0435\u0442\u043e\u0434\u0435 \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u0441\u043b\u0443\u0447\u0430\u0439\u043d\u043e\u0439 \u0432\u0435\u043b\u0438\u0447\u0438\u043d\u044b \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u0435\u0451 \u0438\u043d\u0442\u0435\u043d\u0441\u0438\u0432\u043d\u043e\u0441\u0442\u0438",
+    "abstract": "\u041e\u0434\u043d\u0438\u043c \u0438\u0437 \u0441\u0430\u043c\u044b\u0445 \u0438\u0437\u0432\u0435\u0441\u0442\u043d\u044b\u0445 \u0438 \u043f\u0440\u043e\u0441\u0442\u044b\u0445 \u043c\u0435\u0442\u043e\u0434\u043e\u0432 \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u0441\u043b\u0443\u0447\u0430\u0439\u043d\u044b\u0445 \u0432\u0435\u043b\u0438\u0447\u0438\u043d \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043c\u0435\u0442\u043e\u0434 \u043e\u0431\u0440\u0430\u0442\u043d\u043e\u0439 \u0444\u0443\u043d\u043a\u0446\u0438\u0438, \u043e\u0441\u043d\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u043d\u0430 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0438 \u0444\u0443\u043d\u043a\u0446\u0438\u0438, \u043e\u0431\u0440\u0430\u0442\u043d\u043e\u0439 \u043a \u0444\u0443\u043d\u043a\u0446\u0438\u0438 \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044f.\r\n\u041e\u0434\u043d\u0430\u043a\u043e \u0434\u043e\u0432\u043e\u043b\u044c\u043d\u043e \u0447\u0430\u0441\u0442\u043e \u043f\u0440\u0438 \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0438 \u043f\u043e\u0432\u0435\u0434\u0435\u043d\u0438\u044f \u043d\u0435\u0442\u0440\u0438\u0432\u0438\u0430\u043b\u044c\u043d\u044b\u0445 \u043c\u043e\u0434\u0435\u043b\u0435\u0439 \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u0441\u0442\u0430\u043b\u043a\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u0441 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u043e\u0439 \u043f\u043e\u0441\u0442\u0440\u043e\u0435\u043d\u0438\u044f \u0444\u0443\u043d\u043a\u0446\u0438\u0438, \u043e\u0431\u0440\u0430\u0442\u043d\u043e\u0439 \u043a \u0444\u0443\u043d\u043a\u0446\u0438\u0438 \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044f \u0438\u0441\u0441\u043b\u0435\u0434\u0443\u0435\u043c\u043e\u0439 \u0441\u043b\u0443\u0447\u0430\u0439 \u043d\u043e\u0439 \u0432\u0435\u043b\u0438\u0447\u0438\u043d\u044b, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0435\u043c \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u043e\u0432 \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u0443\u0435\u043c\u044b\u0445 \u0441\u043b\u0443\u0447\u0430\u0439\u043d\u044b\u0445 \u0432\u0435\u043b\u0438\u0447\u0438\u043d.\r\n\u0412 \u0434\u0430\u043d\u043d\u043e\u043c \u0442\u0435\u043a\u0441\u0442\u0435 \u043f\u0440\u0435\u0434\u043b\u0430\u0433\u0430\u0435\u0442\u0441\u044f \u043d\u043e\u0432\u044b\u0439 \u043c\u0435\u0442\u043e\u0434 \u0441\u043b\u0443\u0447\u0430\u0439\u043d\u043e\u0439 \u0432\u0435\u043b\u0438\u0447\u0438\u043d\u044b \u043f\u043e \u043e\u0434\u043d\u043e\u0439 \u0438\u0437 \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u044f\u044e\u0449\u0438\u0445 \u0435\u0451 \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043a - \u0444\u0443\u043d\u043a\u0446\u0438\u0438 \u0438\u043d\u0442\u0435\u043d\u0441\u0438\u0432\u043d\u043e\u0441\u0442\u0438, \u0434\u0430\u044e\u0442\u0441\u044f \u0442\u0435\u043e\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043e\u0431\u043e\u0441\u043d\u043e\u0432\u0430\u043d\u0438\u044f \u0434\u0430\u043d\u043d\u043e\u0433\u043e \u043c\u0435\u0442\u043e\u0434\u0430 \u0438 \u0435\u0433\u043e \u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c.",
+    "authors": [
+      "Alexander Koshelev",
+      "Galina Zverkina"
+    ]
+  },
+  {
+    "id": 1179,
+    "title": "\u041e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u0435 \u0441\u0440\u0435\u0434\u043d\u0435\u0433\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u0440\u0430\u0431\u043e\u0442\u044b \u0434\u043e \u043e\u0442\u043a\u0430\u0437\u0430 \u0431\u0435\u0441\u043f\u0440\u043e\u0432\u043e\u0434\u043d\u043e\u0439 \u0441\u0435\u043d\u0441\u043e\u0440\u043d\u043e\u0439 \u0441\u0435\u0442\u0438",
+    "abstract": "\u041f\u0440\u0435\u0434\u043b\u0430\u0433\u0430\u0435\u0442\u0441\u044f \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u0432\u044b\u0440\u0430\u0436\u0435\u043d\u0438\u0435 \u0434\u043b\u044f \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044f \u0441\u0440\u0435\u0434\u043d\u0435\u0433\u043e \u0432\u0440\u0435-\r\n\u043c\u0435\u043d\u0438 \u0440\u0430\u0431\u043e\u0442\u044b \u0434\u043e \u043e\u0442\u043a\u0430\u0437\u0430 \u0431\u0435\u0441\u043f\u0440\u043e\u0432\u043e\u0434\u043d\u043e\u0439 \u0441\u0435\u043d\u0441\u043e\u0440\u043d\u043e\u0439 \u0441\u0435\u0442\u0438. \u041f\u0440\u0435\u0434\u043f\u043e\u043b\u0430\u0433\u0430\u0435\u0442\u0441\u044f, \u0447\u0442\u043e\r\n\u0443\u0437\u043b\u044b, \u044f\u0432\u043b\u044f\u044e\u0449\u0438\u0435\u0441\u044f \u0441\u0435\u043d\u0441\u043e\u0440\u0430\u043c\u0438, \u044f\u0432\u043b\u044f\u044e\u0442\u0441\u044f \u043d\u0435\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u0430\u0432\u043b\u0438\u0432\u0430\u0435\u043c\u044b\u043c\u0438, \u0438\u0434\u0435\u043d\u0442\u0438\u0447\u043d\u044b\r\n\u043f\u043e \u043d\u0430\u0434\u0435\u0436\u043d\u043e\u0441\u0442\u0438, \u043e\u0442\u043a\u0430\u0437\u044b\u0432\u0430\u044e\u0442 \u043d\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e \u0434\u0440\u0443\u0433 \u043e\u0442 \u0434\u0440\u0443\u0433\u0430 \u0438 \u0438\u043c\u0435\u044e\u0442 \u044d\u043a\u0441\u043f\u043e\u043d\u0435\u043d-\r\n\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0435 \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u0435 \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u0440\u0430\u0431\u043e\u0442\u044b \u0434\u043e \u043e\u0442\u043a\u0430\u0437\u0430, \u0430 \u0443\u0437\u0435\u043b, \u044f\u0432\u043b\u044f\u044e\u0449\u0438\u0439\u0441\u044f\r\n\u0441\u0442\u043e\u043a\u043e\u043c, \u0430\u0431\u0441\u043e\u043b\u044e\u0442\u043d\u043e \u043d\u0430\u0434\u0435\u0436\u0435\u043d",
+    "authors": [
+      "\u041e\u043b\u0435\u0433 \u0422\u043a\u0430\u0447\u0435\u0432"
+    ]
+  },
+  {
+    "id": 1624,
+    "title": "Two-Way Communication Retrial Queue with Markov Modulated Poisson Input and Multiple Types of Outgoing Calls",
+    "abstract": "In this paper, we consider single server two-way communication retrial queue with Markov modulated Poisson input. Such system serves two types of calls: incoming and outgoing. We assume that incoming calls arrive according to the input process and follow the retrial behavior. If the server is occupied upon arrival, the call joins the orbit and waits for some time before making the next try to receive service. On the other hand, outgoing calls are initiated by server and do not make redial. We present the analysis of queue using asymptotic diffusion method.",
+    "authors": [
+      "Anatoly Nazarov",
+      "Tuan Phung-Duc",
+      "Svetlana Paul",
+      "Olga Lizyura"
+    ]
+  },
+  {
+    "id": 1251,
+    "title": "Analysis of Tandem Retrial Queue with Common Orbit and MMPP Incoming Flow",
+    "abstract": "In this paper, we consider a tandem queueing system with one orbit, MMPP incoming flow and two sequentially connected servers by the method of asymptotic diffusion analysis. We obtain the necessary condition for the existence of the steady-state regime and the limiting probability distribution of the number of calls there under the scaling regime that the retrial rate is extremely small. Then we evaluate the applicability of the asymptotic results by simulation.",
+    "authors": [
+      "Anatoly Nazarov",
+      "Svetlana Paul",
+      "Tuan Phung-Duc",
+      "Mariya Morozova"
+    ]
+  },
+  {
+    "id": 1233,
+    "title": "\u041c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u043f\u0435\u0440\u0435\u0434\u0430\u0447\u0438 \u0434\u0430\u043d\u043d\u044b\u0445 \u0432 \u0441\u0435\u0442\u0438 FANET \u0432 \u0432\u0438\u0434\u0435 RQ-\u0441\u0438\u0441\u0442\u0435\u043c",
+    "abstract": "\u0412 \u0440\u0430\u0431\u043e\u0442\u0435 \u043f\u0440\u0435\u0434\u043b\u0430\u0433\u0430\u0435\u0442\u0441\u044f  \u043c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043c\u043e\u0434\u0435\u043b\u044c \u043f\u0435\u0440\u0435\u0434\u0430\u0447\u0438 \u0434\u0430\u043d\u043d\u044b\u0445 \u0432 \u0441\u0435\u0442\u044f\u0445 FANET \u0432 \u0432\u0438\u0434\u0435 RQ-\u0441\u0438\u0441\u0442\u0435\u043c\u044b (Retrial Queue). \u041f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u043e \u043e\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u043f\u0440\u043e\u0441\u0442\u0435\u0439\u0448\u0435\u0439 RQ-\u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0441 \u043a\u043e\u043d\u0444\u043b\u0438\u043a\u0442\u0430\u043c\u0438 \u0437\u0430\u044f\u0432\u043e\u043a. \u041f\u0435\u0440\u0435\u0447\u0438\u0441\u043b\u0435\u043d\u044b \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0435 \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043a\u0438 \u0438 \u043d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0443\u0441\u043b\u043e\u0436\u043d\u0435\u043d\u0438\u044f \u043c\u043e\u0434\u0435\u043b\u0438, \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u044b\u0435 \u0434\u043b\u044f \u0430\u043d\u0430\u043b\u0438\u0437\u0430 \u0440\u0435\u0430\u043b\u044c\u043d\u044b\u0445 \u0441\u0435\u0442\u0435\u0439 \u0441\u0432\u044f\u0437\u0438.",
+    "authors": [
+      "Danil Plaksin",
+      "Ekaterina Fedorova",
+      "Olga Lizyura",
+      "Dmitriy Shashev",
+      "Svetlana Moiseeva"
+    ]
+  },
+  {
+    "id": 1250,
+    "title": "\u0418\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0435 \u0446\u0438\u043a\u043b\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0441\u0438\u0441\u0442\u0435\u043c \u0441 \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u044b\u043c\u0438 \u0432\u044b\u0437\u043e\u0432\u0430\u043c\u0438 \u0432 \u043a\u043b\u044e\u0447\u0435 \u043f\u043e\u0441\u0442\u0440\u043e\u0435\u043d\u0438\u044f \u0441\u0435\u0442\u0435\u0439 \u043f\u0435\u0440\u0435\u0434\u0430\u0447\u0438 \u0434\u0430\u043d\u043d\u044b\u0445",
+    "abstract": "\u0412 \u0440\u0430\u0431\u043e\u0442\u0435 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0435 \u043c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0438\u0306 \u043c\u043e\u0434\u0435\u043b\u0438 \u0446\u0438\u043a\u043b\u0438\u0447\u0435\u0441\u043a\u043e\u0438\u0306 \u0441\u0435\u0442\u0438 \u0441\u0432\u044f\u0437\u0438 \u043c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u0434\u043e\u0441\u0442\u0443\u043f\u0430. \u0422\u0430\u043a\u0430\u044f \u043c\u043e\u0434\u0435\u043b\u044c \u043c\u043e\u0436\u0435\u0442 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c\u0441\u044f \u0432 \u0442\u043e\u043c \u0447\u0438\u0441\u043b\u0435 \u0434\u043b\u044f \u043f\u043e\u0441\u0442\u0440\u043e\u0435\u043d\u0438\u044f \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u0438\u0437\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0445 \u201c\u043b\u0435\u0442\u0430\u044e\u0449\u0438\u0445\u201d \u0441\u0435\u0442\u0435\u0439 \u043f\u0435\u0440\u0435\u0434\u0430\u0447\u0438 \u0434\u0430\u043d\u043d\u044b\u0445 FANET. \u0412 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u043c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u043c\u043e\u0434\u0435\u043b\u0438 \u0442\u0430\u043a\u043e\u0439 \u0441\u0435\u0442\u0438 \u0440\u0430\u0441\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u043e\u0434\u043d\u043e\u043b\u0438\u043d\u0435\u0439\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0441 \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u044b\u043c\u0438 \u0432\u044b\u0437\u043e\u0432\u0430\u043c\u0438, \u043d\u0430 \u0432\u0445\u043e\u0434 \u043a\u043e\u0442\u043e\u0440\u043e\u0439 \u043f\u043e\u0441\u0442\u0443\u043f\u0430\u0435\u0442 N \u043f\u0440\u043e\u0441\u0442\u0435\u0439\u0448\u0438\u0445 \u043f\u043e\u0442\u043e\u043a\u043e\u0432 \u0437\u0430\u044f\u0432\u043e\u043a, \u043f\u0440\u043e\u0434\u043e\u043b\u0436\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u0438 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u043a\u043e\u0442\u043e\u0440\u044b\u0445 \u0438\u043c\u0435\u044e\u0442 \u044d\u043a\u0441\u043f\u043e\u043d\u0435\u043d\u0446\u0438\u0430\u043b\u044c\u043d\u0443\u044e \u0444\u0443\u043d\u043a\u0446\u0438\u044e \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044f \u0434\u043b\u044f \u0437\u0430\u044f\u0432\u043e\u043a n-\u0433\u043e \u043f\u043e\u0442\u043e\u043a\u0430, n = 1\u2026N. \u041f\u0440\u0438\u043c\u0435\u043d\u044f\u044f \u043c\u0435\u0442\u043e\u0434\u044b \u0441\u0438\u0441\u0442\u0435\u043c \u0441 \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430\u043c\u0438 \u043f\u0440\u0438\u0431\u043e\u0440\u0430 \u0438 \u0430\u0441\u0438\u043c\u043f\u0442\u043e\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0430\u043d\u0430\u043b\u0438\u0437\u0430 \u0432 \u0443\u0441\u043b\u043e\u0432\u0438\u0438 \u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u0437\u0430\u0434\u0435\u0440\u0436\u043a\u0438 \u0437\u0430\u044f\u0432\u043e\u043a \u043d\u0430 \u043e\u0440\u0431\u0438\u0442\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e \u0430\u0441\u0438\u043c\u043f\u0442\u043e\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u0435 \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u0435\u0439 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439 \u0447\u0438\u0441\u043b\u0430 \u0437\u0430\u044f\u0432\u043e\u043a \u043d\u0430 \u0432\u044b\u0434\u0435\u043b\u0435\u043d\u043d\u043e\u0439 \u043e\u0440\u0431\u0438\u0442\u0435.",
+    "authors": [
+      "Svetlana Paul",
+      "Ksenia Shulgina",
+      "Olga Lizyura",
+      "Dmitriy Shashev"
+    ]
+  },
+  {
+    "id": 1234,
+    "title": "\u0410\u0441\u0438\u043c\u043f\u0442\u043e\u0442\u0438\u0447\u0435\u0441\u043a\u0438-\u0434\u0438\u0444\u0444\u0443\u0437\u0438\u043e\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0437 RQ-\u0441\u0438\u0441\u0442\u0435\u043c\u044b MMPP/M/1 \u0441 \u0440\u0430\u0437\u043d\u043e\u0442\u0438\u043f\u043d\u044b\u043c\u0438 \u0432\u044b\u0437\u044b\u0432\u0430\u0435\u043c\u044b\u043c\u0438 \u0437\u0430\u044f\u0432\u043a\u0430\u043c\u0438",
+    "abstract": "\u0412 \u0441\u0442\u0430\u0442\u044c\u0435 \u0440\u0430\u0441\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0435\u0442\u0441\u044f RQ-\u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0441 \u0440\u0430\u0437\u043d\u043e\u0442\u0438\u043f\u043d\u044b\u043c\u0438 \u0432\u044b\u0437\u044b\u0432\u0430\u0435\u043c\u044b\u043c\u0438 \u0437\u0430\u044f\u0432\u043a\u0430\u043c\u0438 \u0438 \u043e\u0434\u043d\u0438\u043c \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u044e\u0449\u0438\u043c \u043f\u0440\u0438\u0431\u043e\u0440\u043e\u043c. \u0412 \u0441\u0438\u0441\u0442\u0435\u043c\u0443 \u043f\u043e\u0441\u0442\u0443\u043f\u0430\u0435\u0442 MMPP-\u043f\u043e\u0442\u043e\u043a \u0437\u0430\u044f\u0432\u043e\u043a. \u0417\u0430\u044f\u0432\u043a\u0430 \u0432\u0445\u043e\u0434\u044f\u0449\u0435\u0433\u043e \u043f\u043e\u0442\u043e\u043a\u0430 \u0437\u0430\u043d\u0438\u043c\u0430\u0435\u0442 \u043f\u0440\u0438\u0431\u043e\u0440 \u0434\u043b\u044f \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f, \u0435\u0441\u043b\u0438 \u043e\u043d \u0441\u0432\u043e\u0431\u043e\u0434\u0435\u043d. \u0412 \u0438\u043d\u043e\u043c \u0441\u043b\u0443\u0447\u0430\u0435, \u043f\u043e\u0441\u0442\u0443\u043f\u0438\u0432\u0448\u0430\u044f \u0437\u0430\u044f\u0432\u043a\u0430 \u043f\u0440\u0438\u0441\u043e\u0435\u0434\u0438\u043d\u044f\u0435\u0442\u0441\u044f \u043a \u0432\u0438\u0440\u0442\u0443\u0430\u043b\u044c\u043d\u043e\u043c\u0443 \u043c\u0435\u0441\u0442\u0443 \u0434\u043b\u044f \u043e\u0436\u0438\u0434\u0430\u043d\u0438\u044f, \u043d\u0430\u0437\u044b\u0432\u0430\u0435\u043c\u043e\u043c\u0443 \u043e\u0440\u0431\u0438\u0442\u043e\u0439. \u041f\u043e\u0432\u0442\u043e\u0440\u043d\u044b\u0435 \u043e\u0431\u0440\u0430\u0449\u0435\u043d\u0438\u044f \u0441 \u043e\u0440\u0431\u0438\u0442\u044b \u043f\u0440\u043e\u0438\u0441\u0445\u043e\u0434\u044f\u0442 \u043d\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e \u0434\u0440\u0443\u0433 \u043e\u0442 \u0434\u0440\u0443\u0433\u0430 \u043f\u043e\u0441\u043b\u0435 \u0441\u043b\u0443\u0447\u0430\u0439\u043d\u043e\u0439 \u0437\u0430\u0434\u0435\u0440\u0436\u043a\u0438. \u041a\u043e\u0433\u0434\u0430 \u043f\u0440\u0438\u0431\u043e\u0440 \u0441\u0432\u043e\u0431\u043e\u0434\u0435\u043d, \u043e\u043d \u0442\u0430\u043a\u0436\u0435 \u043c\u043e\u0436\u0435\u0442 \u0432\u044b\u0437\u044b\u0432\u0430\u0442\u044c \u0437\u0430\u044f\u0432\u043a\u0438 \u0441\u0430\u043c. \u0412\u044b\u0437\u044b\u0432\u0430\u0435\u043c\u044b\u0435 \u0437\u0430\u044f\u0432\u043a\u0438 \u0432\u044b\u0437\u044b\u0432\u0430\u044e\u0442\u0441\u044f \u0438 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u044e\u0442\u0441\u044f \u0441 \u0438\u043d\u0442\u0435\u043d\u0441\u0438\u0432\u043d\u043e\u0441\u0442\u044c\u044e, \u0437\u0430\u0432\u0438\u0441\u044f\u0449\u0435\u0439 \u043e\u0442 \u0438\u0445 \u0442\u0438\u043f\u0430. \u0412 \u0441\u0442\u0430\u0442\u044c\u0435 \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u043e \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0435 \u0447\u0438\u0441\u043b\u0430 \u0437\u0430\u044f\u0432\u043e\u043a \u043d\u0430 \u043e\u0440\u0431\u0438\u0442\u0435 \u0432 \u043e\u043f\u0438\u0441\u0430\u043d\u043d\u043e\u0439 \u0441\u0438\u0441\u0442\u0435\u043c\u0435 \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u043c\u0435\u0442\u043e\u0434\u0430 \u0430\u0441\u0438\u043c\u043f\u0442\u043e\u0442\u0438\u0447\u0435\u0441\u043a\u0438-\u0434\u0438\u0444\u0444\u0443\u0437\u0438\u043e\u043d\u043d\u043e\u0433\u043e \u0430\u043d\u0430\u043b\u0438\u0437\u0430.",
+    "authors": [
+      "Anatoly Nazarov",
+      "Tuan Phung-Duc",
+      "Svetlana Paul",
+      "Olga Lizyura"
+    ]
+  },
+  {
+    "id": 1250,
+    "title": "\u0418\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0435 \u0446\u0438\u043a\u043b\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0441\u0438\u0441\u0442\u0435\u043c \u0441 \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u044b\u043c\u0438 \u0432\u044b\u0437\u043e\u0432\u0430\u043c\u0438 \u0432 \u043a\u043b\u044e\u0447\u0435 \u043f\u043e\u0441\u0442\u0440\u043e\u0435\u043d\u0438\u044f \u0441\u0435\u0442\u0435\u0439 \u043f\u0435\u0440\u0435\u0434\u0430\u0447\u0438 \u0434\u0430\u043d\u043d\u044b\u0445",
+    "abstract": "\u0412 \u0440\u0430\u0431\u043e\u0442\u0435 \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043e \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0435 \u043c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0438\u0306 \u043c\u043e\u0434\u0435\u043b\u0438 \u0446\u0438\u043a\u043b\u0438\u0447\u0435\u0441\u043a\u043e\u0438\u0306 \u0441\u0435\u0442\u0438 \u0441\u0432\u044f\u0437\u0438 \u043c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u0434\u043e\u0441\u0442\u0443\u043f\u0430. \u0422\u0430\u043a\u0430\u044f \u043c\u043e\u0434\u0435\u043b\u044c \u043c\u043e\u0436\u0435\u0442 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c\u0441\u044f \u0432 \u0442\u043e\u043c \u0447\u0438\u0441\u043b\u0435 \u0434\u043b\u044f \u043f\u043e\u0441\u0442\u0440\u043e\u0435\u043d\u0438\u044f \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u0438\u0437\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0445 \u201c\u043b\u0435\u0442\u0430\u044e\u0449\u0438\u0445\u201d \u0441\u0435\u0442\u0435\u0439 \u043f\u0435\u0440\u0435\u0434\u0430\u0447\u0438 \u0434\u0430\u043d\u043d\u044b\u0445 FANET. \u0412 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u043c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u043c\u043e\u0434\u0435\u043b\u0438 \u0442\u0430\u043a\u043e\u0439 \u0441\u0435\u0442\u0438 \u0440\u0430\u0441\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u043e\u0434\u043d\u043e\u043b\u0438\u043d\u0435\u0439\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0441 \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u044b\u043c\u0438 \u0432\u044b\u0437\u043e\u0432\u0430\u043c\u0438, \u043d\u0430 \u0432\u0445\u043e\u0434 \u043a\u043e\u0442\u043e\u0440\u043e\u0439 \u043f\u043e\u0441\u0442\u0443\u043f\u0430\u0435\u0442 N \u043f\u0440\u043e\u0441\u0442\u0435\u0439\u0448\u0438\u0445 \u043f\u043e\u0442\u043e\u043a\u043e\u0432 \u0437\u0430\u044f\u0432\u043e\u043a, \u043f\u0440\u043e\u0434\u043e\u043b\u0436\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u0438 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u043a\u043e\u0442\u043e\u0440\u044b\u0445 \u0438\u043c\u0435\u044e\u0442 \u044d\u043a\u0441\u043f\u043e\u043d\u0435\u043d\u0446\u0438\u0430\u043b\u044c\u043d\u0443\u044e \u0444\u0443\u043d\u043a\u0446\u0438\u044e \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044f \u0434\u043b\u044f \u0437\u0430\u044f\u0432\u043e\u043a n-\u0433\u043e \u043f\u043e\u0442\u043e\u043a\u0430, n = 1\u2026N. \u041f\u0440\u0438\u043c\u0435\u043d\u044f\u044f \u043c\u0435\u0442\u043e\u0434\u044b \u0441\u0438\u0441\u0442\u0435\u043c \u0441 \u043f\u0440\u043e\u0433\u0443\u043b\u043a\u0430\u043c\u0438 \u043f\u0440\u0438\u0431\u043e\u0440\u0430 \u0438 \u0430\u0441\u0438\u043c\u043f\u0442\u043e\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0430\u043d\u0430\u043b\u0438\u0437\u0430 \u0432 \u0443\u0441\u043b\u043e\u0432\u0438\u0438 \u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u0437\u0430\u0434\u0435\u0440\u0436\u043a\u0438 \u0437\u0430\u044f\u0432\u043e\u043a \u043d\u0430 \u043e\u0440\u0431\u0438\u0442\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e \u0430\u0441\u0438\u043c\u043f\u0442\u043e\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u0435 \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u0435\u0439 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439 \u0447\u0438\u0441\u043b\u0430 \u0437\u0430\u044f\u0432\u043e\u043a \u043d\u0430 \u0432\u044b\u0434\u0435\u043b\u0435\u043d\u043d\u043e\u0439 \u043e\u0440\u0431\u0438\u0442\u0435.",
+    "authors": [
+      "Svetlana Paul",
+      "Ksenia Shulgina",
+      "Olga Lizyura",
+      "Dmitriy Shashev"
+    ]
+  },
+  {
+    "id": 1246,
+    "title": "\u041c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u043c\u043e\u0434\u0435\u043b\u044c \u043c\u0443\u043b\u044c\u0442\u0438\u043f\u043e\u0442\u043e\u043a\u043e\u0432\u043e\u0439 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u043f\u0435\u0440\u0435\u0434\u0430\u0447\u0438 \u0434\u0430\u043d\u043d\u044b\u0445",
+    "abstract": "\u0412 \u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0435\u0439 \u0441\u0442\u0430\u0442\u044c\u0435 \u043f\u0440\u0435\u0434\u043b\u0430\u0433\u0430\u0435\u0442\u0441\u044f \u043e\u0431\u043e\u0431\u0449\u0435\u043d\u043d\u0430\u044f \u043c\u043e\u0434\u0435\u043b\u044c \u042d\u0440\u043b\u0430\u043d\u0433\u0430 \u0441 \u043e\u0436\u0438\u0434\u0430\u043d\u0438\u0435\u043c, \u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u044c \u043a\u043e\u0442\u043e\u0440\u043e\u0439 \u0437\u0430\u043a\u043b\u044e\u0447\u0430\u0435\u0442\u0441\u044f \u0432 \u0442\u043e\u043c, \u0447\u0442\u043e \u0434\u043b\u044f \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0438 \u0438 \u043f\u0435\u0440\u0435\u0434\u0430\u0447\u0438 \u0434\u0430\u043d\u043d\u044b\u0445 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u044b \u0434\u0432\u0430 \u0433\u0435\u0442\u0435\u0440\u043e\u0433\u0435\u043d\u043d\u044b\u0445 \u0440\u0435\u0441\u0443\u0440\u0441\u0430 \u043a\u043e\u043d\u0435\u0447\u043d\u043e\u0433\u043e \u043e\u0431\u044a\u0435\u043c\u0430  \u0438 \u0440\u0430\u0437\u043d\u043e\u0439 \u0438\u043d\u0442\u0435\u043d\u0441\u0438\u0432\u043d\u043e\u0441\u0442\u0438 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f. \u0414\u043b\u044f \u0447\u0438\u0441\u043b\u0435\u043d\u043d\u043e\u0433\u043e \u0440\u0435\u0448\u0435\u043d\u0438\u044f  \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u043d\u043e\u0439 \u0438\u0437 \u0430\u043d\u0430\u043b\u0438\u0437\u0430 \u0434\u0438\u0430\u0433\u0440\u0430\u043c\u043c\u044b \u043f\u0435\u0440\u0435\u0445\u043e\u0434\u043e\u0432 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u043b\u0438\u043d\u0435\u0439\u043d\u044b\u0445 \u0443\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u0439 \u0440\u0430\u0432\u043d\u043e\u0432\u0435\u0441\u0438\u044f \u0434\u043b\u044f \u0441\u0442\u0430\u0446\u0438\u043e\u043d\u0430\u0440\u043d\u044b\u0445 \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u0435\u0439   \u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0435\u043d \u043e\u0440\u0438\u0433\u0438\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u0440\u0435\u043a\u0443\u0440\u0440\u0435\u043d\u0442\u043d\u044b\u0439 \u0441\u043a\u0430\u043b\u044f\u0440\u043d\u043e-\u0432\u0435\u043a\u0442\u043e\u0440\u043d\u044b\u0439 \u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c, \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u044e\u0449\u0438\u0439 \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u044c \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u0435 \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u0435\u0439  \u0447\u0438\u0441\u043b\u0430 \u0437\u0430\u043d\u044f\u0442\u044b\u0445 \u043f\u0440\u0438\u0431\u043e\u0440\u043e\u0432 \u0432 \u043a\u0430\u0436\u0434\u043e\u043c \u0431\u043b\u043e\u043a\u0435 \u0438 \u0447\u0438\u0441\u043b\u0430 \u0437\u0430\u044f\u0432\u043e\u043a, \u043d\u0430\u0445\u043e\u0434\u044f\u0449\u0438\u0445\u0441\u044f \u0432 \u043e\u0447\u0435\u0440\u0435\u0434\u0438, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0440\u0430\u0441\u0441\u0447\u0438\u0442\u0430\u0442\u044c \u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043a\u0438 \u0441\u0438\u0441\u0442\u0435\u043c\u044b: \u0437\u0430\u0433\u0440\u0443\u0437\u043a\u0430 \u043a\u0430\u043d\u0430\u043b\u043e\u0432, \u0441\u0440\u0435\u0434\u043d\u0435\u0435 \u0432\u0440\u0435\u043c\u044f \u043f\u0440\u0435\u0431\u044b\u0432\u0430\u043d\u0438\u044f \u0432 \u0441\u0438\u0441\u0442\u0435\u043c\u0435, \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u044c \u043c\u043e\u043c\u0435\u043d\u0442\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f, \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043a\u0438 \u0437\u0430\u0434\u0435\u0440\u0436\u043a\u0438 \u0432 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0438 \u0438 \u0441\u0440\u0435\u0434\u043d\u0435\u0435 \u0447\u0438\u0441\u043b\u043e  \u043e\u0442\u043a\u0430\u0437\u043e\u0432 \u0432 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u0438.",
+    "authors": [
+      "Svetlana Moiseeva",
+      "Ekaterina Pakulova",
+      "Artem Ryndin",
+      "Irina Turenova"
+    ]
+  },
+  {
+    "id": 1247,
+    "title": "\u0413\u0430\u0443\u0441\u0441\u043e\u0432\u0441\u043a\u0430\u044f \u0430\u043f\u043f\u0440\u043e\u043a\u0441\u0438\u043c\u0430\u0446\u0438\u044f \u0434\u043b\u044f  \u0440\u0435\u0441\u0443\u0440\u0441\u043d\u043e\u0439  \u0433\u0435\u0442\u0435\u0440\u043e\u0433\u0435\u043d\u043d\u043e\u0439 \u0421\u041c\u041e (GI+2M)(\u03bd)/GI/\u221e",
+    "abstract": "\u0412 \u0440\u0430\u0431\u043e\u0442\u0435 \u0440\u0430\u0441\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0435\u0442\u0441\u044f  \u0440\u0435\u0441\u0443\u0440\u0441\u043d\u0430\u044f \u0433\u0435\u0442\u0435\u0440\u043e\u0433\u0435\u043d\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u043c\u0430\u0441\u0441\u043e\u0432\u043e\u0433\u043e \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f, \u0441\u043e\u0441\u0442\u043e\u044f\u0449\u0430\u044f \u0438\u0437 \u0434\u0432\u0443\u0445 \u0443\u0437\u043b\u043e\u0432, \u043d\u0435\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u043d\u043e\u0439 \u0440\u0435\u0441\u0443\u0440\u0441\u043d\u043e\u0439 \u0435\u043c\u043a\u043e\u0441\u0442\u0438. \u041d\u0430 \u0432\u0445\u043e\u0434 \u043f\u043e\u0441\u0442\u0443\u043f\u0430\u044e\u0442 \u0437\u0430\u043f\u0440\u043e\u0441\u044b \u043d\u0430 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043d\u0435\u043a\u043e\u0442\u043e\u0440\u043e\u0433\u043e \u0441\u043b\u0443\u0447\u0430\u0439\u043d\u043e\u0433\u043e \u043e\u0431\u044a\u0435\u043c\u0430 \u0440\u0435\u0441\u0443\u0440\u0441\u043e\u0432 \u043d\u0430 \u043d\u0435\u043a\u043e\u0442\u043e\u0440\u043e\u0435 \u0441\u043b\u0443\u0447\u0430\u0439\u043d\u043e\u0435 \u0432\u0440\u0435\u043c\u044f. \u041f\u043e\u0442\u043e\u043a\u0438 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u0439 \u044f\u0432\u043b\u044f\u044e\u0442\u0441\u044f \u0441\u0442\u0430\u0446\u0438\u043e\u043d\u0430\u0440\u043d\u044b\u043c\u0438 \u043f\u0443\u0430\u0441\u0441\u043e\u043d\u043e\u0432\u0441\u043a\u0438\u043c\u0438 \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u043e\u0439 \u0438\u043d\u0442\u0435\u043d\u0441\u0438\u0432\u043d\u043e\u0441\u0442\u0438. \u0415\u0441\u043b\u0438 \u0434\u043b\u044f \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f \u0437\u0430\u0432\u043a\u0438 \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u0437\u0430\u0434\u0435\u0439\u0441\u0442\u0432\u043e\u0432\u0430\u0442\u044c \u0440\u0435\u0441\u0443\u0440\u0441 \u043e\u0431\u043e\u0438\u0445 \u0443\u0437\u043b\u043e\u0432, \u0442\u043e \u043f\u0440\u0435\u0434\u043f\u043e\u043b\u0430\u0433\u0430\u0435\u0442\u0441\u044f, \u0447\u0442\u043e \u043c\u043e\u043c\u0435\u043d\u0442\u044b \u043f\u0440\u0438\u0445\u043e\u0434\u0430 \u0442\u0430\u043a\u0438\u0445 \u0437\u0430\u044f\u0432\u043e\u043a \u043e\u0431\u0440\u0430\u0437\u0443\u044e\u0442 \u0440\u0435\u043a\u0443\u0440\u0440\u0435\u043d\u0442\u043d\u044b\u0439 \u0441 \u0440\u0430\u0437\u0434\u0435\u043b\u0435\u043d\u0438\u0435\u043c \u043d\u0430 \u0434\u0432\u0430 \u0440\u0430\u0437\u043d\u043e\u0442\u0438\u043f\u043d\u044b\u0445 \u0437\u0430\u043f\u0440\u043e\u0441\u0430. \u041e\u0442\u043b\u0438\u0447\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0439 \u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u044c\u044e \u0440\u0430\u0441\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0435\u043c\u044b\u0445 \u0441\u0438\u0441\u0442\u0435\u043c \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u0442\u043e, \u0447\u0442\u043e \u0440\u0435\u0441\u0443\u0440\u0441 \u043e\u0441\u0432\u043e\u0431\u043e\u0436\u0434\u0430\u0435\u0442\u0441\u044f \u0432 \u0442\u043e\u043c \u0436\u0435 \u043e\u0431\u044a\u0435\u043c\u0435, \u0447\u0442\u043e \u0438 \u0437\u0430\u043f\u0440\u0430\u0448\u0438\u0432\u0430\u043b\u0441\u044f. \u0414\u043b\u044f \u043f\u043e\u0441\u0442\u0440\u043e\u0435\u043d\u0438\u044f \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0430 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f \u0441\u0443\u043c\u043c\u0430\u0440\u043d\u043e \u0437\u0430\u043d\u0438\u043c\u0430\u0435\u043c\u044b\u0445 \u0440\u0435\u0441\u0443\u0440\u0441\u043e\u0432  \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d \u043c\u0435\u0442\u043e\u0434 \u0430\u0441\u0438\u043c\u043f\u0442\u043e\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0430\u043d\u0430\u043b\u0438\u0437\u0430 \u043f\u0440\u0438  \u0443\u0441\u043b\u043e\u0432\u0438\u0438 \u044d\u043a\u0432\u0438\u0432\u0430\u043b\u0435\u043d\u0442\u043d\u043e \u0440\u0430\u0441\u0442\u0443\u0449\u0435\u0439 \u043d\u0430\u0433\u0440\u0443\u0437\u043a\u0438. \u041f\u043e\u0441\u0442\u0440\u043e\u0435\u043d\u0430 \u0433\u0430\u0443\u0441\u0441\u043e\u0432\u0441\u043a\u0430\u044f \u0430\u043f\u043f\u0440\u043e\u043a\u0441\u0438\u043c\u0430\u0446\u0438\u044f \u0441\u0442\u0430\u0446\u0438\u043e\u043d\u0430\u0440\u043d\u043e\u0433\u043e \u0434\u0432\u0443\u043c\u0435\u0440\u043d\u043e\u0433\u043e \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044f \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u0435\u0439  \u0437\u0430\u043d\u044f\u0442\u044b\u0445 \u0440\u0435\u0441\u0443\u0440\u0441\u043e\u0432 \u0432 \u0432 \u0443\u0437\u043b\u0430\u0445 \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f",
+    "authors": [
+      "\u0422\u0430\u0442\u044c\u044f\u043d\u0430 \u0411\u0443\u0448\u043a\u043e\u0432\u0430",
+      "Svetlana Moiseeva"
+    ]
+  },
+  {
+    "id": 1207,
+    "title": "Performance analysis of a finite-source retrial queueing system with two-way communication, catastrophic breakdown and impatient customers using simulation",
+    "abstract": "An M/M/1//N retrial queueing system with two-way\r\ncommunication to the infinite source and impatient customers\r\nin the orbit is considered in the paper. There is a finite source\r\nin which the primary or regular customers are coming, while\r\nrequests from the infinite source are the secondary customers.\r\nBecause of not having waiting queues, the service of an arriving,\r\nprimary customer begins immediately. Otherwise, in the case\r\nof a busy server, the primary customers are forwarded to\r\nthe orbit waiting an exponentially distributed random time to\r\ntry to reach the service unit. When the service unit is in an\r\nidle state, it may call a customer from the infinite source for\r\nservice. All requests possess an impatience property resulting\r\nin an earlier departure from the system through the orbit if\r\nthey wait too much for being served. Besides, the service unit\r\nis supposed to break down according to several distributions\r\nwhich have a specialty removing all the customers located in\r\nthe system. In the case of a faulty state, blocking is applied\r\nnot allowing the customers into the system until the service\r\nunit fully recovers. This work concentrates on examining the\r\neffect of those distributions on several performance measures\r\nlike the distribution of the number of customers in the system,\r\nthe probability of a primary customer departing because of\r\ncatastrophe. The obtained results are graphically realized to show\r\nthe differences and curiosities among the used parameter settings\r\nof the various distributions.",
+    "authors": [
+      "\u00c1d\u00e1m T\u00f3th",
+      "J\u00e1nos Sztrik"
+    ]
+  },
+  {
+    "id": 1237,
+    "title": "Artificial Regeneration in Supercomputer Queueing Model",
+    "abstract": "In this paper we address the performance estimation by simulation in a realistic size supercomputer model. We apply exponential splitting to the generalized semi-Markov process model to obtain the so-called artificial regeneration points which allows to perform regenerative estimation.",
+    "authors": [
+      "Alexander Rumyantsev",
+      "Irina Peshkova"
+    ]
+  },
+  {
+    "id": 1254,
+    "title": "Extreme behavior of waiting times in $GI/G/1$ with Exponential-Pareto service times",
+    "abstract": "In this paper we study the extreme behavior of waiting times in steady-state $GI/G/1$ systems with Exponential-Pareto mixture distribution. We show that this distribution belongs to the subclass of subexponential distributions, that allows to apply known tail asymptotic for stationary waiting times via the equilibrium distribution of service times.\r\n\\keywords{Regenerative Simulation, Extreme Values,",
+    "authors": [
+      "Irina Peshkova"
+    ]
+  },
+  {
+    "id": 1239,
+    "title": "Stability analysis of an unreliable two-class retrial system with constant retrial rates",
+    "abstract": "A  two-class single-server  retrial system with Poisson inputs is considered.\r\nIn this system, unlike conventional retrial systems, each  new class-i customer joins the ``end'' of a  virtual class-i orbit, and the ``oldest''  customer from each orbit is only allowed to make an  attempt to occupy server after a class-dependent exponential retrial time.   Moreover, the server is assumed to be not reliable, and a customer whose service is interrupted joins the ``top'' of class-i orbit queue.   Thus FIFO discipline is applied in both orbits. Using regenerative methodology  we derive stability conditions of this system.",
+    "authors": [
+      "Ruslana Nekrasova",
+      "Dmitry Efrosinin",
+      "Evsey Morozov"
+    ]
+  },
+  {
+    "id": 1248,
+    "title": "A unified regenerative stability analysis of some non-conventional queueing models",
+    "abstract": "In this research we demonstrate how the regenerative methodology allows to deduce stability conditions in some particular queueing models by a unified way. We consider the retrial system with classical retrial discipline in which the retrial times becomes exponential when the orbit size  exceeds a high threshold. Moreover we study the buffered system with state-dependent arrival rate, and finally, a buffered batch-arrival and batch-service system with random serving capacity and batch-size-dependent service. We present  short transparent regenerative proofs of the stability conditions of these systems which have been obtained in previous works by various methods.",
+    "authors": [
+      "Stepan Rogozin",
+      "Evsey Morozov"
+    ]
+  },
+  {
+    "id": 1252,
+    "title": "\u0418\u0437\u0443\u0447\u0435\u043d\u0438\u0435 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0430 \u0430\u0434\u0430\u043f\u0442\u0438\u0432\u043d\u043e\u0433\u043e \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u043a\u043e\u043d\u0444\u043b\u0438\u043a\u0442\u043d\u044b\u043c\u0438 \u043f\u043e\u0442\u043e\u043a\u0430\u043c\u0438 \u041a\u043e\u043a\u0441\u0430-\u041b\u044c\u044e\u0438\u0441\u0430 \u043f\u0443\u0442\u0435\u043c \u0438\u043c\u0438\u0442\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0433\u043e \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f",
+    "abstract": "\u0412 \u0440\u0430\u0431\u043e\u0442\u0435 \u0440\u0430\u0441\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0430\u0434\u0430\u043f\u0442\u0438\u0432\u043d\u043e\u0433\u043e \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u043a\u043e\u043d\u0444\u043b\u0438\u043a\u0442\u043d\u044b\u043c\u0438 \u043f\u043e\u0442\u043e\u043a\u0430\u043c\u0438 \u0440\u0430\u0437\u043d\u043e\u0442\u0438\u043f\u043d\u044b\u0445 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u0439.  \u041c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u043c\u043e\u0434\u0435\u043b\u044c\u044e \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u0432\u0435\u043a\u0442\u043e\u0440\u043d\u0430\u044f \u043c\u0430\u0440\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043f\u043e\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c. \u0414\u043b\u044f \u0434\u0430\u043d\u043d\u043e\u0439 \u043f\u043e\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u0438 \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u044b \u0443\u0441\u043b\u043e\u0432\u0438\u044f \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043e\u0432\u0430\u043d\u0438\u044f \u043f\u0440\u0435\u0434\u0435\u043b\u044c\u043d\u043e\u0433\u043e \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044f. \u0422\u0430\u043a\u0436\u0435 \u043f\u0440\u043e\u0432\u0435\u0434\u0435\u043d\u043e \u0447\u0438\u0441\u043b\u0435\u043d\u043d\u043e\u0435 \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0435 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u043c\u0435\u0442\u043e\u0434\u043e\u043c \u0438\u043c\u0438\u0442\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0433\u043e \u043c\u043e\u0434\u0435\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f. \u041f\u0440\u0438\u0432\u0435\u0434\u0435\u043d \u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c \u043e\u043f\u0442\u0438\u043c\u0438\u0437\u0430\u0446\u0438\u0438 \u0438\u043c\u0438\u0442\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0439 \u043c\u043e\u0434\u0435\u043b\u0438.",
+    "authors": [
+      "Evgeniy Kudryavtsev",
+      "Mikhail Fedotkin"
+    ]
+  },
+  {
+    "id": 1259,
+    "title": "Numerical analysis of large-scale queueing system with a small parameter",
+    "abstract": "In this work we study large-scale queueing systems with with a small parameter using numerical analysis. We assume that there is a Poisson input flow of requests to large-scale  queueing systems with a limited intensity and there is a service discipline for any request which provides a randomly selection from any m-set servers  such server that has the s-th shortest queue size. We consider Tikhonov problem for a system of differential equations with a small parameter. Solutions of Tikhonov problem are shares of the servers that have the queues lengths with not less than k. We describe the processes of rapid changes of large-scale queueing systems and time scaling in this large-scale system using a small parameter.  We apply the adaptive numerical methods for this large-scale queueing systems analysis using a piecewise-uniform grid. The results of the numerical analysis demonstrate the high efficiency of this numerical method.",
+    "authors": [
+      "Sergey Vasilyev",
+      "Mohamed Adel Bouatta",
+      "Galina Tsareva"
+    ]
+  },
+  {
+    "id": 1433,
+    "title": "Analysis of photonic switches using queueing theory and simulation modelling",
+    "abstract": "In this paper authors proposed the approach for investigation of photonic switches performance metrics in modern optical networks. The approach including analytical and simulation modelling has allowed more accurate to determine of the photon switches characteristics and predict their behavior in real networks. It will allow to reduce the cost of physical implementation of photonic switches.",
+    "authors": [
+      "Elizaveta Barabanova",
+      "Konstantin Vytovtov",
+      "Vladimir Vishnevsky",
+      "Iskander Khafizov"
+    ]
+  },
+  {
+    "id": 1177,
+    "title": "Estimation of the Tail Index of PageRanks in Random Graphs",
+    "abstract": "Superstar nodes  to which a large proportion of nodes attach in the evolving graphs are considered.\r\nWe attract results  of the extreme value theory regarding sums and maxima of non-stationary random length sequences to predict the tail index of the PageRanks and  Max-linear models as influence measures  of superstar nodes. To this end, the graphs are divided into mutually weakly dependent communities. Maxima and sums of the PageRanks over communities are used as weakly independent block-data.   Tail indices of the  block-maxima and block-sums and hence, of the PageRanks and the Max-linear models are found to be close to the minimum tail index of series of representative nodes taken from the communities. The graph evolution is provided by a linear preferential attachment. The tail indices are estimated by data of simulated and real temporal graphs.",
+    "authors": [
+      "Natalia Markovich",
+      "Maksim Ryzhov"
+    ]
+  },
+  {
+    "id": 1194,
+    "title": "Clusters of Exceedances for Evolving Random Graphs",
+    "abstract": "Evolution of random undirected graphs by the clustering attachment (CA) and with uniform node deletion is investigated. The CA causes clusters of consecutive exceedances of the modularity over a sufficiently high threshold. The modularity is a measure that allows us to divide graphs into communities. It shows the connectivity of nodes in the community. An extremal index approximates the mean cluster size and thus, it reflects a local dependence.  It is shown by simulation study that estimates of the extremal index of the modularity and tail index of node degrees depend on the CA parameters.",
+    "authors": [
+      "Natalia Markovich",
+      "Maksim Ryzhov"
+    ]
+  },
+  {
+    "id": 1211,
+    "title": "Inventory Control with Returns and Controlled Markov Queueing Systems",
+    "abstract": "A new model of inventory control with returns is considered, when it is possible for consumers to return (under certain conditions) the products they have purchased and a similar model of multi-channel controlled queueing system with switching of service channels. An optimal inventory control strategy in such a system turns out to be four-level. Then we investigate a model of a multilinear queueing system (QS) with channel switching under uncertainty and study the analogy of this model with the model of inventory control with returns.",
+    "authors": [
+      "Alexander Mandel",
+      "Viktor Laptin"
+    ]
+  },
+  {
+    "id": 1212,
+    "title": "Controlled Markov Queueing Systems under Uncertainty",
+    "abstract": "We investigate a model of a multilinear queueing system (QS) with channel switching under uncertainty, when statistical characteristics of the homogeneous Markov chain, which describes the transition probabilities of the environment from state to state, are unknown. Several reinforcement learning algorithms have been proposed to control such a system.",
+    "authors": [
+      "Alexander Mandel",
+      "Viktor Laptin"
+    ]
+  },
+  {
+    "id": 1223,
+    "title": "Queuing system with threshold-based general renovation mechanism",
+    "abstract": "The paper considers a single-line queuing system with a single-threshold\r\nmechanism for probabilistic dropping of applications accepted into the system\r\n(general renovation). On the one hand, unlike the previously considered\r\nsystems with general renovation, this system introduces a certain threshold\r\nvalue in the queue as a control parameter of the renovation mechanism, which\r\nnot only determines the moment when the probabilistic dropping of applications\r\naccepted into the system is enabled, but also sets a safe area in the queue from\r\nwhich applications accepted into the system cannot be reset. A general\r\nrenovation is a probabilistic reset of an arbitrary number of applications from the\r\nqueue outside the safe zone, which occurs at the end of the application service\r\non the device. For this system, the main probabilistic-time characteristics are\r\nobtained",
+    "authors": [
+      "Hilquias Cravid",
+      "Ivan Zaryadov",
+      "Tatiana Milovanova"
+    ]
+  },
+  {
+    "id": 1204,
+    "title": "Non-asymptotic Confidence Estimation of the Autoregressive Parameter  in ARMA(1,q) Model",
+    "abstract": "The article deals with the problem of confidence estimation of the  autoregressive  parameter of the ARMA(1, q) process in a non-asymptotic statement. It is assumed that the noise of the process is Gaussian with an unknown variance. The problem is solved by using a sequential modification of the Yule-Walker estimate.",
+    "authors": [
+      "Sergey Vorobeychikov",
+      "Andrey Pupkov"
+    ]
+  },
+  {
+    "id": 1281,
+    "title": "Existence of stationary queue-size distributions in the systems that work only on the biggest batches of customers",
+    "abstract": "Consideration is given to the infinite capacity FIFO queueing systems\r\nwith a single server, that work only on the biggest batches of customers. \r\nNew customers arrive only in batches. \r\nUpon arrival of a batch its size is compared with the current\r\ntotal number of customers the system.\r\nIf the size of the batch is larger than that number, all customers residing in the system (including the one in server) are pushed-out \r\nand the arrived batch enters the system;\r\notherwise the new batch is considered as lost. \r\nConditions of the existence of the stationary \r\nqueue-size distributions of such systems are of interest. \r\nIt is shown that in the classical cases they follow the intuition.\r\nYet the preliminary analysis shows, that \r\nfiniteness of the mean batch size may not be necessary \r\nfor the stability of such queues.",
+    "authors": [
+      "Rostislav Razumchik",
+      "Lusine Meykhanadzhyan"
+    ]
+  },
+  {
+    "id": 1417,
+    "title": "Estimating a polyhedron method informativeness in the problem of checking the automaton by the statistical properties of the input  and output sequences",
+    "abstract": "The problem of verification of the Moore finite state machine by the statistical\r\nproperties of the input and output sequences is considered. It is assumed that\r\nthe initial state of the automaton is unknown. To verify the automaton, the\r\npolyhedra method is used. The results of computational experiments for four\r\nclasses of non-autonomous binary shift registers are presented.",
+    "authors": [
+      "Sergey Melnikov",
+      "Konstantin Samouylov",
+      "Andrey Zyazin"
+    ]
+  },
+  {
+    "id": 1282,
+    "title": "A machine learning approach for predicting SINR",
+    "abstract": "The article proposes a method for assigning a modulation-code scheme by a base station scheduler, based on predicting the value of the signal-to-interference ratio on the equipment of a mobile user at the next time slot from a sequence of known values of this ratio in the past. Prediction is performed using machine learning; for this, a single-layer neural network was built and applied to solve a multi-parameter optimization problem using the stochastic gradient method. The trained neural network for the predicted value of the signal / interference ratio allows the scheduler to select the modulation-code scheme correctly, thereby ensuring the level of quality of data transmission in the radio channel required for the provision of the service.",
+    "authors": [
+      "Ekaterina Bobrikova",
+      "Anna Platonova",
+      "Ekaterina Medvedeva",
+      "Yuliya Gaidamaka",
+      "Sergey Shorgin"
+    ]
+  },
+  {
+    "id": 1421,
+    "title": "VQA for response synthesis based on spatial actions",
+    "abstract": "The paper considers the automatic analysis problem of a user's natural language query from an image. The mechanism synthesizes a logically correct non-binary response. Synthesis is carried out on the\r\nbasis of combining the results of convolutional and recurrent networks and projection on a set of valid answers. A three-dimensional data set has been developed to search for an answer in a complex environment using a robotic arm. Similar systems examples and their comparison are given. The experiments results showed that our method is able to achieve indicators comparable with known models.",
+    "authors": [
+      "Gleb Kiselev",
+      "Daniil Weizenfeld",
+      "Yaroslava Gorbunova"
+    ]
+  },
+  {
+    "id": 1275,
+    "title": "On Application of Source Code Analysis Ttechniques to HTML Pages Data Extraction",
+    "abstract": "Web scraping technique becomes more important as data grows in the Internet. There are lots of algorithms developed, most of them requires human assistance. The proposed approach using source-code analysis techniques for extracting data from HTML pages. The extracted information is divided into fields, which are parameters of extracted entities.",
+    "authors": [
+      "Dmitry Orlov"
+    ]
+  },
+  {
+    "id": 1272,
+    "title": "\u0420\u0430\u0441\u0447\u0435\u0442 \u043c\u0430\u0442\u0440\u0438\u0447\u043d\u043e-\u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u043c\u043e\u0434\u0435\u043b\u0438 \u0441\u0443\u043f\u0435\u0440\u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u0430 \u0432 \u043f\u0435\u0440\u0435\u0445\u043e\u0434\u043d\u043e\u043c \u0440\u0435\u0436\u0438\u043c\u0435",
+    "abstract": "\u0412 \u0440\u0430\u0431\u043e\u0442\u0435 \u0440\u0430\u0441\u0441\u043c\u043e\u0442\u0440\u0435\u043d\u0430 \u0437\u0430\u0434\u0430\u0447\u0430 \u0440\u0430\u0441\u0447\u0435\u0442\u0430 \u0445\u0430\u0440\u0430\u043a\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043a \u043c\u0430\u0442\u0440\u0438\u0447\u043d\u043e-\u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u043c\u043e\u0434\u0435\u043b\u0438 \u0432\u044b\u0447\u0438\u0441\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0433\u043e \u043a\u043b\u0430\u0441\u0442\u0435\u0440\u0430 (\u0441\u0443\u043f\u0435\u0440\u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u0430) \u0432 \u043f\u0435\u0440\u0435\u0445\u043e\u0434\u043d\u043e\u043c \u0440\u0435\u0436\u0438\u043c\u0435. \u0414\u043b\u044f \u0440\u0430\u0441\u0447\u0435\u0442\u043e\u0432 \u043f\u0440\u0438\u043c\u0435\u043d\u0435\u043d \u0447\u0438\u0441\u043b\u0435\u043d\u043d\u044b\u0439 \u043c\u0435\u0442\u043e\u0434, \u043e\u0441\u043d\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u043d\u0430 \u043c\u0435\u0442\u043e\u0434\u0435 \u0420\u0443\u043d\u0433\u0435-\u041a\u0443\u0442\u0442\u044b 4-\u0433\u043e \u043f\u043e\u0440\u044f\u0434\u043a\u0430 \u0440\u0435\u0448\u0435\u043d\u0438\u044f \u043e\u0431\u044b\u043a\u043d\u043e\u0432\u0435\u043d\u043d\u044b\u0445 \u0434\u0438\u0444\u0444\u0435\u0440\u0435\u043d\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0445 \u0443\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u0439 \u0438 \u0438\u0445 \u0441\u0438\u0441\u0442\u0435\u043c. \u041d\u0430\u0439\u0434\u0435\u043d\u0430 \u043e\u0446\u0435\u043d\u043a\u0430 \u0434\u043b\u044f \u043c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0439 \u0434\u043b\u0438\u043d\u044b \u0448\u0430\u0433\u0430 \u0430\u043b\u0433\u043e\u0440\u0438\u0442\u043c\u0430.",
+    "authors": [
+      "Sergey Astafiev"
+    ]
+  },
+  {
+    "id": 1291,
+    "title": "State Observer System Based on K-Means Clustering Machine Learning Model for Cyber-Security of Industrial Network",
+    "abstract": "Machine learning is a good reasoning automated mechanism to help human intelligence to detect potential risks. There are the following ways used techniques could be implemented: spam detection based on the texts analysis, anomalies detection and data prediction. In this paper it'll be discussed the text analysis algorithm based on the clustering machine learning technique for detecting potential area of threaten messages in the modeled industrial system. It is implemented a discrete-time observer algorithm of machine learning model for cybersecurity of industrial network.",
+    "authors": [
+      "Artur Sagdatullin"
+    ]
+  },
+  {
+    "id": 1450,
+    "title": "Spectrum and AI-based Analysis for a Flight Environment and Avoiding Virtual Obstacles Using Potential Field Method for Path Control",
+    "abstract": "Computer vision-based navigation systems basically rely on the external environment for positioning. This research studies the selection of the computer vision navigation algorithm that suits better for a specified flight environment. Two methods are used to analyze the flight environment images, and a com- parative study between them is presented. While the first method depends on spectrum analysis using Fourier transform offline, the second method uses artifi- cial intelligence based on Convolutional Neural Network (CNN) to analyze such images. Avoiding the bad matching areas and treating them as virtual obstacles is realized using the potential fields method. The two methods are implemented and tested on a path in a simulation environment consisting of Robot Operating system (ROS), Gazebo simulator, and IRIS drone model. Results show that both methods give good indicators to the more efficient navigation algorithm, but CNN offers more detailed description of the environment and additional options to avoid failures.",
+    "authors": [
+      "Ayham Shahoud",
+      "Dmitriy Shashev",
+      "Stanislav Shidlovskiy"
+    ]
+  },
+  {
+    "id": 1451,
+    "title": "Collision Provenance using Decentralized Ledger as a Blockchain/Hashgraph in Swarm of Drones",
+    "abstract": "There has been a lot of research on drone swarms in recent years mostly focusing on the swarm pattern formation and communication aspects improving the coverage and latency of communication, however; the decentralization aspect of the swarm network is little in consideration. A peer-to-peer flying ad-hoc network might be a good solution to implement a decentralized swarm, but besides the physical layer of the network, there must be a mechanism which ensures the preservation, validity, immutability, and integrity of data ever emitted in the swarm. Since a decentralized network is not a leader-based network, it needs a mechanism for all the participants in the network to reach consensus on all actions. This is where a shared data structure in the form of blockchain/hashgraph can be introduced in the application layer. A change in state requires a consensus by all participants and mirroring of state change. We can leverage the immutable smart contracts in such a way that drones upload data to the topics created in those networks. Since, the data can not be altered it creates a trust layer for the drones, hence a good approach for provenance of collisions.",
+    "authors": [
+      "Qazawat Zirak",
+      "Dmitriy Shashev"
+    ]
+  },
+  {
+    "id": 1277,
+    "title": "Semantic aspects of data sparsity description in multidimensional information system",
+    "abstract": "Metadata in information systems based on a multidimensional approach can be described through setting the parameters of cells in the multidimensional data cu-be. Metadata can be constructed by connecting classification schemes. Each clas-sification scheme is a hierarchy of members related to a separate structural com-ponent of the observed phenomenon. The method is based on the identification of groups of members that are associated with groups of members of other dimen-sions. Groups of members of different dimensions are used to build clusters of member combinations. Combinations in cluster are formed by the Cartesian product of groups of members. The metadata of the information system is repre-sented as a set of possible member combinations, which is formed as a set of clusters. To solve this problem, the observed phenomenon is considered as a set of structural components. It is necessary to select separate sets of dimensions that are semantically related to the structural components of the observed phenome-non. The semantic connections revealed during the analysis of the structural com-ponent allow us to build a hierarchy of groups of members and represent them in the form of a classification scheme associated with the structural component. In information systems with a large set of aspects of analysis data cubes are charac-terized by a large sparsity. Classification schemes describe the individual aspects of metadata associated with the individual structural components of the observed phenomenon. Combining classification schemes makes it possible to obtain a complete description of metadata by dividing the analytical space into structural components.",
+    "authors": [
+      "Maxim Fomin"
+    ]
+  },
+  {
+    "id": 1210,
+    "title": "On Model Inversion Attacks",
+    "abstract": "Attacks on machine learning systems are defined as special actions on the ele-\r\nments of the machine learning pipeline, which are designed to either prevent the\r\nnormal operation of machine learning systems or ensure their special functioning,\r\nwhich is necessary for the attacker. Model inversion attacks aim to expose the\r\nprivate data used to train the model. Attacks that expose private information\r\nabout machine learning systems are a big threat to machine learning as a service\r\nprojects. In this article, we provide an overview of off-the-shelf software tools\r\nfor performing model inversion attacks.",
+    "authors": [
+      "Dmitry Namiot"
+    ]
+  },
+  {
+    "id": 1218,
+    "title": "On monitoring of machine learning models",
+    "abstract": ". In this article, we want to focus on monitoring machine learning models. The practical use of machine learning systems includes several fairly standard steps that do not depend on the subject area. These\r\nstages of the pipeline are described in sufficient detail, all descriptions\r\nof machine learning systems begin with them and include steps such as\r\npreparing the model, selecting training data, training the model, and\r\ntesting it (putting it into operation). At the same time, such a stage as\r\nmonitoring during the operation phase is almost always excluded from\r\nconsideration. Meanwhile, this moment plays a key role, for example, to\r\nensure the stability of the machine learning system. This article discusses\r\nthe practical issues of building monitoring for machine learning systems.",
+    "authors": [
+      "Dmitry Namiot"
+    ]
+  },
+  {},
+  {
+    "id": 1198,
+    "title": "Improvement of CNN-Based Model for Object Classification in Aero Photographs",
+    "abstract": "A review of methods for solving computer vision problems by classes proved\r\nthe advantages of the neural network method over all those proposed earlier.\r\nThe principle of operation of neurons in an artificial network makes it possible to\r\nidentify its activity, which is determined by its parameters for classifying objects\r\nin aerial photographs. The article presented a well-founded mathematical model\r\nand the main technologies of the convolutional neural network model based on\r\nthe dropout technique, which is widely used in preventing network retraining.\r\nThis model helps to increase the invariance to the scale of the input images. At\r\nthe output of the convolutional layers of the network, several layers of the neural\r\nnetwork are additionally installed that perform the work of the classifier.",
+    "authors": [
+      "Van Trong Nguyen",
+      "Pashchenko Fedor Fedorovich",
+      "Bui Truong An",
+      "Duc Tiep Le"
+    ]
+  },
+  {
+    "id": 1206,
+    "title": "Neuro-Fuzzy Model Based on Multidimensional Membership Function",
+    "abstract": "Currently, systems based on multidimensional membership functions are being actively researched and developed. Most algorithms for determining the parameters of fuzzy membership functions are developed on the basis of one-dimensional membership functions. The fuzzy rules generated by these algorithms often overlap and cannot act as independent rules. The overlap of fuzzy rules in fuzzy systems does not allow one to evaluate the reliability of individual fuzzy rules and at the same time creates limitations in extracting knowledge from fuzzy systems.\r\nIn this article, a neuro-fuzzy neural system will be built based on a multidimensional Gaussian membership function with the ability to describe the relationship of interaction between input variables, and at the same time, the generated fuzzy rules are capable of independent operation.",
+    "authors": [
+      "Bui Truong An",
+      "Van Trong Nguyen",
+      "Pashchenko Fedor Fedorovich",
+      "Tran Duc Hieu",
+      "Pham Thi Nguyen"
+    ]
+  },
+  {
+    "id": 1231,
+    "title": "Fuzzy Classification Model Based on Genetic Algorithm",
+    "abstract": "The paper presents a new classification model based on a symbolic regression\r\nmethod, fuzzy inference system and genetic algorithm. For complex practical\r\nproblems, building a unified predictive model for various states of a system\r\nor a process encounters a lot of difficulties, but the task can be divided into\r\n2 stages: a)to obtain a classification of system states; b)to build models with\r\ngood predictive qualities for each class. The fuzzy approach makes it possible\r\nto specify states (set of parameters) which can be assigned to more than one\r\nclass. A feature of the presented model is the use of symbolic regression to\r\nidentify variables that form the basis of the classification model and to clarify\r\nthe interaction of parameters. The paper also presents an example of practical\r\napplication of the model",
+    "authors": [
+      "Olga Kochueva"
+    ]
+  },
+  {
+    "id": 1242,
+    "title": "The error correction method in the problem of automatic authorship identification of literary text",
+    "abstract": "The paper describes an algorithm for correcting of possible identification\r\nerrors of authors of literary texts. The identification method is the nearest\r\nneighbor pattern, corresponding to a given class of texts. The pattern in this\r\ncase is the empirical frequency distribution of letter combinations based on the\r\nanalysis of reliably known works of the author. The proximity between texts is\r\nunderstood in the sense of the proximity of the frequencies of bigrams in the\r\nL1 norm. The author of an unknown text is assigned the one to whose pattern\r\nthe text under test is closest. In the analyzed corpus of texts, 1783 texts of 100\r\nauthors were collected, the recognition error was equal to 0.12. It is important\r\nthat after the exclusion of incorrectly recognized texts, a library of 88 authors\r\nand 1450 texts remained, each of which was identified correctly. The problem\r\nunder study is the assessment of the probability that there is no standard of the\r\nauthor of the tested text among the library patterns. If the correct pattern is\r\nexcluded from consideration, the second closest pattern is assigned as such, but\r\nit turns out to be unstable: the ambiguity of such identification of the author\r\nof fragments occurs already when the text is cut into 4 fragments. Thus, the\r\nstability of the identification of the author of text fragments can be proposed as\r\nan independent criterion for the correctness of the method that allows you to\r\nselect texts written in atypical styles.",
+    "authors": [
+      "Yurii Orlov",
+      "Voronina Maria"
+    ]
+  }
+]
