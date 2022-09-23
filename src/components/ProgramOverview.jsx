@@ -47,18 +47,18 @@ const ProgramOverview = ({ program, tracks, className = "" }) => {
               </a>
             </Link>
           </li>
-          {/*{*/}
-          {/*  tracks && tracks.map((track, index) => (*/}
-          {/*    <li key={index}>*/}
-          {/*      <Link href={"/program"} as={`/program#${track.slug}`}>*/}
-          {/*        <a className="text-blue-500 text-lg leading-7 hover:underline">*/}
-          {/*          <FontAwesomeIcon icon={track.icon} className={`mr-2 ${getTrackTextColor(track, { heavy: true })}`} />*/}
-          {/*          <span>Track {track.letter}: {track.name}</span>*/}
-          {/*        </a>*/}
-          {/*      </Link>*/}
-          {/*    </li>*/}
-          {/*  ))*/}
-          {/*}*/}
+          {
+            tracks && tracks.map((track, index) => (
+              <li key={index}>
+                <Link href={"/program"} as={`/program#${track.slug}`}>
+                  <a className="text-blue-500 text-lg leading-7 hover:underline">
+                    <FontAwesomeIcon icon={track.icon} className={`mr-2 ${getTrackTextColor(track, { heavy: true })}`} />
+                    <span>Track {track.letter}: {track.name}</span>
+                  </a>
+                </Link>
+              </li>
+            ))
+          }
         </ul>
       </div>
 
@@ -75,11 +75,11 @@ const ProgramOverview = ({ program, tracks, className = "" }) => {
                   <h4 className="text-lg font-extrabold text-gray-600 mt-0 mb-12">{progDay.description}</h4>
                 )
               }
-              {/*<VideoConfCard*/}
-              {/*  className="my-8"*/}
-              {/*  videoHtml={progDay.online && progDay.video}*/}
-              {/*  links={(progDay.online && progDay.online.links) || []}*/}
-              {/*/>*/}
+              <VideoConfCard
+                className="my-8"
+                videoHtml={progDay.online && progDay.video}
+                links={(progDay.online && progDay.online.links) || []}
+              />
               <ProgDayTable progDay={progDay} tracks={tracks} className="" />
             </div>
           ))
