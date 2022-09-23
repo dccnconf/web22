@@ -309,7 +309,10 @@
     "title": "Analysis of Power Management in a Tethered High Altitude Platform using MAP/PH[3]/1 Retrial Queueing Model",
     "abstract": "Due to the increasing demand of the tethered high altitude platform (HAP) systems, it is imperative to assess their power consumption along with their deployment. This study considers the power management of lithium-ion batteries based tethered HAP systems for wireless communications service provisioning. This article discusses a novel model based on a multi-dimensional  Markov process applied for the evaluation of the power consumption characteristics of a tethered HAP system. The proposed model takes into account the increment in the load on the functioning of system after the consumption of power in batteries. The underlying study introduces functioning of the system in three modes along with the retrial phenomenon. The arrival of packets follows Markovian arrival process ($M\\!A\\!P$) and the service time is phase-type ($P\\!H$) distributed with distinct parameters in three different modes. The stationary distributions and stability of the system have been derived using the matrix-geometric method. Further, by deriving key system performance measures, numerical examples have been illustrated.",
     "authors": [
-      "Vladimir Vishnevsky"
+      "Vidyottama Jain",
+      "Vladimir Vishnevsky",
+      "Dharmaraja Selvamuthu",
+      "Raina Raj"
     ]
   },
   {
