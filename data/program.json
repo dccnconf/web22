@@ -328,6 +328,11 @@
       "avatar": "/images/avatars/samouylov.jpg"
     },
     {
+      "name": "I.Peshkova",
+      "slug": "pesh",
+      "appeal": "Prof."
+    },
+    {
       "name": "Yu. Gaidamaka",
       "slug": "yug",
       "appeal": "Prof."
@@ -498,7 +503,7 @@
       "appeal": "Prof."
     },
     {
-      "name": "E. Bogatyrev",
+      "name": "V. Bogatyrev",
       "slug": "bog",
       "appeal": "Prof."
     },
@@ -655,12 +660,16 @@
           "startTime": "2022-09-28T12:00+03:00"
         },
         {
-          "paperId": 1171,
+          "paperId": 1203,
           "startTime": "2022-09-28T12:15+03:00"
         },
         {
-          "paperId": 1200,
+          "paperId": 1171,
           "startTime": "2022-09-28T12:30+03:00"
+        },
+        {
+          "paperId": 1200,
+          "startTime": "2022-09-28T12:45+03:00"
         }
       ]
     },
@@ -751,10 +760,6 @@
         {
           "paperId": 1222,
           "startTime": "2022-09-27T12:30+03:00"
-        },
-        {
-          "paperId": 1258,
-          "startTime": "2022-09-27T12:45+03:00"
         }
       ]
     },
@@ -798,7 +803,7 @@
           "startTime": "2022-09-27T14:45+03:00"
         },
         {
-          "paperId": 1203,
+          "paperId": 1258,
           "startTime": "2022-09-27T15:00+03:00"
         },
         {
@@ -916,7 +921,7 @@
           "slug": "szt"
         },
         {
-          "slug": "mor"
+          "slug": "pesh"
         }
       ],
       "lectures": [
