@@ -16,8 +16,10 @@ import {getAllOrganizations} from "../libs/organizations";
 import {Venue} from "../components/Venue";
 import KeynoteSpeakers from "../components/KeynoteSpeakers";
 import {getAllSpeakers} from "../libs/keynotes";
+import TpcMembersList from "../components/TpcMembersList";
+import {getAllTpcMembers} from "../libs/tpc";
 
-export default function Home({committeeMembers, organizations, topics, deadlines, fees, speakers}) {
+export default function Home({committeeMembers, organizations, topics, deadlines, fees, speakers, tpcMembers}) {
   return (
     <Layout pageTitle={"DCCN'2022"} active="conference">
       <div className="lg:pb-12">
@@ -124,13 +126,13 @@ export default function Home({committeeMembers, organizations, topics, deadlines
           {/*  <TechnicalsSponsors/>*/}
           {/*</div>*/}
 
-          {/*<div>*/}
-          {/*  <h3 className="h3">Technical Program Committee</h3>*/}
-          {/*  <TpcMembersList*/}
-          {/*    members={tpcMembers}*/}
-          {/*    className="container mt-8 mx-auto lg:w-3/4"*/}
-          {/*  />*/}
-          {/*</div>*/}
+          <div>
+            <h3 className="h3">Technical Program Committee</h3>
+            <TpcMembersList
+              members={tpcMembers}
+              className="container mt-8 mx-auto lg:w-3/4"
+            />
+          </div>
 
         </div>
       </section>
@@ -171,6 +173,7 @@ export const getStaticProps = async () => {
   const fees = getAllFees();
   const organizations = getAllOrganizations();
   const speakers = getAllSpeakers();
+  const tpcMembers = getAllTpcMembers();
 
   return {
     props: {
@@ -180,7 +183,8 @@ export const getStaticProps = async () => {
       topics,
       fees,
       organizations,
-      speakers
+      speakers,
+      tpcMembers
     }
   }
 };

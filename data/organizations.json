@@ -296,4 +296,11 @@
   "slug": "ieee",
   "name": "IEEE Russia Section Chapter, COM19 Chair",
   "country": "Russia"
-}]
+}, {
+  "id": 50,
+  "slug": "msu",
+  "name": "Lomonosov Moscow State University",
+  "country": "Russia"
+}
+
+]
