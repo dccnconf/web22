@@ -3,6 +3,8 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faDoorOpen} from "@fortawesome/free-solid-svg-icons";
 import {faFilePdf} from "@fortawesome/free-regular-svg-icons";
 import {faYoutube} from "@fortawesome/free-brands-svg-icons";
+import {faBook} from "@fortawesome/free-solid-svg-icons";
+
 
 export default function Hero({ plenary }) {
 
@@ -80,6 +82,16 @@ export default function Hero({ plenary }) {
         {/*    </a>*/}
         {/*  </div>*/}
         {/*</div>*/}
+
+        <div className="mt-3 mx-0 md:mx-16 lg:mx-0 lg:w-1/2 xl:w-4/7">
+          <div className="rounded-md shadow">
+            <a href="#proceedings"
+               className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-gray-100 hover:bg-gray-500 focus:outline-none focus:border-gray-700 focus:shadow-outline-gray transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10 text-gray-900">
+              <FontAwesomeIcon icon={faBook} size="lg" className="mr-2" />
+              Springer proceedings
+            </a>
+          </div>
+        </div>
       </div>
 
       {/* DCCN Logo */}
