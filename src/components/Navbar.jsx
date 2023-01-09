@@ -177,11 +177,11 @@ const ConferenceMenu = ({onClick}) => (
       comment="Learn more about our conference"
       onClick={onClick}
     />
-    {/*<NavbarDropdownMenuItem*/}
-    {/*  href="/" as="/#proceedings" icon={faBook} text="Proceedings" iconClassName="mx-1"*/}
-    {/*  comment="Springer Proceedings"*/}
-    {/*  onClick={onClick}*/}
-    {/*/>*/}
+    <NavbarDropdownMenuItem
+      href="/" as="/#proceedings" icon={faBook} text="Proceedings" iconClassName="mx-1"
+      comment="Springer Proceedings"
+      onClick={onClick}
+    />
     <NavbarDropdownMenuItem
       href="/" as="/#keynotes" icon={faStar} text="Keynote Speakers"
       comment="Read about our keynote speakers"

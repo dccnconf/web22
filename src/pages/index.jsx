@@ -10,7 +10,6 @@ import Timeline from "../components/Timeline";
 import {getDeadlines} from "../libs/deadlines";
 import {getAllFees} from "../libs/fees";
 import Fees from "../components/Fees";
-import Link from "next/link";
 import SponsorsImageGallery from "../components/SponsorsImageGallery";
 import {getAllOrganizations} from "../libs/organizations";
 import {Venue} from "../components/Venue";
@@ -18,6 +17,7 @@ import KeynoteSpeakers from "../components/KeynoteSpeakers";
 import {getAllSpeakers} from "../libs/keynotes";
 import TpcMembersList from "../components/TpcMembersList";
 import {getAllTpcMembers} from "../libs/tpc";
+import Proceedings from "../components/Proceedings";
 
 export default function Home({committeeMembers, organizations, topics, deadlines, fees, speakers, tpcMembers}) {
   return (
@@ -37,16 +37,16 @@ export default function Home({committeeMembers, organizations, topics, deadlines
         </div>
       </section>
 
-      {/*<section id="proceedings" className="pt-12 bg-purple-100">*/}
-      {/*  <div className="container mx-auto px-4 pb-12 lg:w-1/2">*/}
+      <section id="proceedings" className="pt-12 bg-purple-100">
+        <div className="container mx-auto px-4 pb-12 lg:w-1/2">
 
-      {/*    <h2 className="h2">Springer Proceedings</h2>*/}
-      {/*    <div className="py-12 text-gray-600">*/}
-      {/*      <Proceedings />*/}
-      {/*    </div>*/}
+          <h2 className="h2">Springer Proceedings</h2>
+          <div className="py-12 text-gray-600">
+            <Proceedings />
+          </div>
 
-      {/*  </div>*/}
-      {/*</section>*/}
+        </div>
+      </section>
 
       {/*<section id="keynotes" className="mt-12">*/}
       {/*  <div className="container mx-auto px-4 pb-12 lg:w-3/4">*/}
